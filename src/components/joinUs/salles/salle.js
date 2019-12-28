@@ -1,7 +1,6 @@
 import React from "react"
 import { Link , graphql, useStaticQuery} from "gatsby"
 import styles from "./salles.module.css"
-import marcelly from "../../../images/marcelly.png"
 import Image from 'gatsby-image'
 
 
