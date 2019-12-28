@@ -1,10 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link , graphql, useStaticQuery} from "gatsby"
 import styles from "./salles.module.css"
 import marcelly from "../../../images/marcelly.png"
+import Image from 'gatsby-image'
 
 
-const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
+const Salle = ({ nom, adresse, imgMap, link, entrainement }) => {
+
+  const data = useStaticQuery(graphql`
+  query  {
+    banner:file(relativePath: {eq: "marcelly.png"}) {
+      childImageSharp {
+        fluid(maxWidth:1600, quality:70, maxHeight:700)  {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+  `)
+
   return (
     <div class="column is-one-third container">
       <div class="box">
@@ -14,7 +28,7 @@ const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
         <div class="has-text-left">
           <p>{adresse}</p>
           <figure>
-             <img src={marcelly} alt={nom} /> 
+            <Image fluid={data.banner.childImageSharp.fluid} />
           </figure>
           <section class="columns">
             <div class="column has-text-left">
@@ -34,4 +48,4 @@ const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
   )
 }
 
-export default salle
+export default Salle
