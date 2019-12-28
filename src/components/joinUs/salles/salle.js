@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from "./salles.module.css"
+import marcelly from "../../../images/marcelly.png"
+
 
 const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
   return (
@@ -12,7 +14,7 @@ const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
         <div class="has-text-left">
           <p>{adresse}</p>
           <figure>
-            {/* <img src={imgMap} alt={nom} /> */}
+             <img src={marcelly} alt={nom} /> 
           </figure>
           <section class="columns">
             <div class="column has-text-left">
@@ -21,7 +23,7 @@ const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
               </a>
             </div>
             <div class="column has-text-right has-text-left-mobile has-text-primary">
-              <Link to="/blog">
+              <Link to="/joinUs">
                 <span>Horaires entrainement</span>
               </Link>
             </div>

@@ -29,7 +29,7 @@ const FormulaireInscription = () => {
         <a href={data.pdfInscription.publicURL} target="_blank"> Télécharge le formulaire d'inscription et apporte le nous directement</a>
         </p>
         <p class="has-text-weight-bold">Ou</p>
-        <p role="dl">Remplis le formulaire directement ici</p>
+        <p role="dl">Remplis le formulaire directement ici ⬇️</p>
         <div>__________________</div><br />
             <form rel="noopener noreferrer" method="POST" action="https://formspree.io/jojo-acdc@hotmail.com">
             <div class="field">
@@ -50,21 +50,21 @@ const FormulaireInscription = () => {
                 <div class="field">
                   <label class="label">Nom</label>
                   <p class=" is-expanded">
-                    <input class="input" name="Nom" type="text" placeholder="Nom" />
+                    <input required class="input" name="Nom" type="text" placeholder="Nom" />
                   </p>
                 </div>
 
                 <div class="field">
                   <label class="label">Prénom</label>
                   <p class="control is-expanded">
-                    <input class="input" name="Prénom" type="text" placeholder="Prénom" />
+                    <input required class="input" name="Prénom" type="text" placeholder="Prénom" />
                   </p>
                 </div>
 
                 <div class="field">
                   <label class="label">Date de naissance</label>
                   <p class="control is-expanded">
-                    <input class="input" name="Date de naissance" type="date" />
+                    <input required class="input" name="Date de naissance" type="date" />
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ const FormulaireInscription = () => {
                 <div class="field">
                   <label class="label">Adresse 1</label>
                   <p class="control">
-                    <input class="input" name="Adresse 1" type="text" placeholder="Adresse 1" />
+                    <input required class="input" name="Adresse 1" type="text" placeholder="Adresse 1" />
                   </p>
 
                   <div class="field">
@@ -99,13 +99,13 @@ const FormulaireInscription = () => {
                 <div class="field">
                   <label class="label">Localité</label>
                   <p class="control is-expanded">
-                    <input class="input" type="text" name="Localité" />
+                    <input required class="input" type="text" name="Localité" />
                   </p>
                 </div>
                 <div class="field">
                   <label class="label">NPA</label>
                   <p class="control is-expanded">
-                    <input class="input" type="text" name="NPA" />
+                    <input required class="input" type="text" name="NPA" />
                   </p>
                 </div>
                 <div class="field">
@@ -113,7 +113,7 @@ const FormulaireInscription = () => {
                     Nationalité<sup>1</sup>
                   </label>
                   <p class="control is-expanded">
-                    <input class="input" type="text" name="Nationalité" />
+                    <input required class="input" type="text" name="Nationalité" />
                   </p>
                 </div>
 
@@ -136,19 +136,19 @@ const FormulaireInscription = () => {
                 <div class="field">
                   <label class="label">Adresse mail</label>
                   <p class="control is-expanded">
-                    <input class="input" name="Adresse mail" type="email" />
+                    <input required class="input" name="Adresse mail" type="email" />
                   </p>
                 </div>
                 <div class="field">
                   <label class="label">N° Téléphone maison</label>
                   <p class="control is-expanded">
-                    <input class="input" name="Téléphone fixe" type="tel" />
+                    <input required class="input" name="Téléphone fixe" type="tel" />
                   </p>
                 </div>
                 <div class="field">
                   <label class="label">N° Téléphone portable</label>
                   <p class="control is-expanded">
-                    <input class="input" name="Téléphone portable" type="tel" />
+                    <input required class="input" name="Téléphone portable" type="tel" />
                   </p>
                 </div>
               </div>
@@ -163,6 +163,7 @@ const FormulaireInscription = () => {
                     <td>
                       <label class="label">
                         <input
+                        
                           type="checkbox"
                           name="CotisationClub"
                           value="Cotisation Club / 50.-"
@@ -218,6 +219,7 @@ const FormulaireInscription = () => {
                     <td>
                       <label class="label">
                         <input
+                        
                           type="radio"
                           value="Juniors 2004 et plus / 20.-"
                           name="CotisationSwissBadminton"
@@ -271,13 +273,13 @@ const FormulaireInscription = () => {
                 <div class="field">
                   <label class="label">Date du jour</label>
                   <p class="control is-expanded">
-                    <input class="input" type="date" name="Date du jour" />
+                    <input required class="input" type="date" name="Date du jour" />
                   </p>
                 </div>
                 <div class="field">
                   <label class="label">Signature <span class="is-size-7">(Pour les mineurs, signature du représentant légal)</span></label>
                   <p class="control is-expanded">
-                    <input class="input" type="text" name="Signature" />
+                    <input required class="input" type="text" name="Signature" />
                   </p>
                 </div>
               </div>

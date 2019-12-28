@@ -1,22 +1,18 @@
 import React from "react"
 import TitleSection from "../../styledComponents/titleStyled"
 import Salle from "./salle"
-import SallesLink from "../../../constants/sallesInfos"
-//import Marcelly from "../../../images/marcelly.png"
 
 const Salles = () => {
   return (
     <div className="container is-fluid has-text-centered">
       <TitleSection title="Nos salles" subtitle="à disposition" primary />
       <div class="columns">
-      {SallesLink.map((item, index) => {
-          console.log(item);
-          
-            return (
-                <Salle nom={item.nom} adresse={item.adresse} link={item.link} entrainement="" />
+    
+                <Salle nom="henry 2" adresse="henry 3" entrainement="./joinUs" />
+                <Salle nom="henry 2" adresse="henry 3" entrainement="./joinUs" />
+                <Salle nom="henry" adresse="henry 3" entrainement="./joinUs" />
 
-            )
-          })}
+   
  
       </div>
       <br />
