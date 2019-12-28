@@ -8,7 +8,7 @@ const Salle = ({ nom, adresse, imgMap, link, entrainement }) => {
 
   const data = useStaticQuery(graphql`
   query  {
-    banner:file(relativePath: {eq: "banner-club.jpg"}) {
+    banner:file(relativePath: {eq: "marcelly.png"}) {
       childImageSharp {
         fluid(maxWidth:1600, quality:70, maxHeight:700)  {
           ...GatsbyImageSharpFluid

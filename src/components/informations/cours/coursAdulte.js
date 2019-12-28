@@ -11,7 +11,7 @@ const CoursAdulte = () => {
       <TitleSection title="entraînement" subtitle="adultes" primary />
       <div class="is-fluid container">
         <div class="table-container has-text-centered">
-          <table class="table is-fullwidth is-striped">
+          <table class="table is-fullwidth is-striped is-bordered">
             <thead>
                 <th>Jour</th>
                 <th>Lieu</th>
