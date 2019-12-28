@@ -16,7 +16,7 @@ const Blog = ({data}) => {
             return <div>
               {node.data.target.fields.file['en-US'].contentType === "application/pdf" 
               ? 
-              <a href={node.data.target.fields.file['en-US'].url}>Bonjour</a> 
+              <a target="_blank" href={node.data.target.fields.file['en-US'].url}>Bonjour</a> 
               : 
               <img alt={node.data.target.fields.title['en-US']} src={node.data.target.fields.file['en-US'].url}/>
             }

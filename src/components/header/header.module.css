@@ -19,6 +19,8 @@
 
 .logoFix{
   margin-top: 5px;
+
+  height:35px;
 }
 .nav-links {
   list-style-type: none;
@@ -41,8 +43,16 @@
   font-size: 1rem;
   letter-spacing: var(--mainSpacing);
 }
+
+
 .nav-links a:hover {
   color: var(--primaryColor);
+
+ }
+
+.essai {
+  padding-top: 23px;
+
 }
 .nav-social-links {
   display: none;

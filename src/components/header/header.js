@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styles from './header.module.css'
 import links from '../../constants/links'
-import logo from '../../images/logo.svg'
+import logo from '../../images/logo.png'
 import { AiOutlineMenu } from "react-icons/ai"
 import socialIcons from '../../constants/icons'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
@@ -35,7 +35,7 @@ const Header = () => {
           {links.map((item, index) => {
             return (
               <li key={index}>
-                <AniLink activeStyle={{color: '#35B0F6'}} fade to={item.path}>{item.name}</AniLink>
+                <AniLink class={styles.underline} activeStyle={{color: '#35B0F6'}} fade to={item.path}>{item.name}</AniLink>
               </li>
             )
           })}
