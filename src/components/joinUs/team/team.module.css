@@ -1,0 +1,40 @@
+.main {
+    margin-bottom: 4rem;
+}
+.underline {
+    border-color:var(--mainBlack);
+    border-style:solid;
+  border-width: 0px 0px 1px 0px;
+  transition: all .2s ease-in;
+}
+
+
+.infoMembre {
+  font-size: 0.8rem;
+}
+
+
+.contactMembreVar{
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+
+
+.signature {
+  font-style: italic;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.avatar {
+  transition: transform .25s, visibility .25s ease-in;
+  border-radius: 15%;
+  box-shadow: -15px -15px 15px 0 rgba(255, 255, 255, 1),
+             15px 15px 15px 0 rgb(0, 0, 0, 0.08);
+}
+
+.avatar:hover{
+  transform: scale(1.05);
+  cursor:pointer;
+}

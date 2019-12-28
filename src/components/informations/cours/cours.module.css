@@ -1,0 +1,30 @@
+@media screen and (max-width: 842px) {
+  table {
+    display: block;
+  }
+  table > *, table tr, table td, table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 37px 0;
+  }
+ 
+}
+
+.underline {
+  border-color:var(--mainBlack);
+  border-style:solid;
+border-width: 0px 0px 1px 0px;
+transition: all .2s ease-in;}
+.essai {
+  padding-top: 23px;
+}
+
+.essaiIcon {
+  padding-top: 26px;
+  padding-right: 10px;
+}

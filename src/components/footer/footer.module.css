@@ -1,0 +1,39 @@
+.footerLinks  {
+  display: inline-block;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:var(--mainWhite);
+  font-size: 1rem;
+  transition: var(--mainTransition);
+  letter-spacing: var(--mainSpacing);
+}
+
+.footerLinks a:hover{
+  color:var(--primaryColor);
+}
+
+
+.linksDiv {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+  .nav-social-links {
+    line-height: 0;
+    margin-bottom: 1rem;
+  }
+  .nav-social-links a {
+    color: var(--mainWhite);
+    margin: 0 1rem;
+    font-size: 1rem;
+    transition: var(--mainTransition);
+  }
+
+  .nav-social-links a:hover {
+    color: var(--primaryColor);
+    transform: translateY(-5px);
+  }

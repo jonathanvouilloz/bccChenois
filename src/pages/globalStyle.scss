@@ -1,0 +1,11 @@
+@charset "utf-8";
+// If need, change your variables before importing Bulma
+$button-border-color :white;
+$button-color :white;
+$primary:#35B0F6;
+$card-header-weight :0;
+$button-border-width :0.2rem;
+$button-hover-background-color:white;
+$table-striped-row-even-background-color :lightgrey;
+
+@import "~bulma/bulma.sass";

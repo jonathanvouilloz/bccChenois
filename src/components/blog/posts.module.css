@@ -1,0 +1,22 @@
+.underline {
+    border-color:var(--primaryColor);
+    border-style:solid;
+  border-width: 0px 0px 0px 7px;
+  padding-left: 5px;
+  transition: all .2s ease-in;
+}
+
+.published {
+    margin-top: 0.5rem;
+}
+
+.iconBad{
+    font-size: 2rem;
+    transform: rotate(25deg);
+}
+
+.published {
+    text-align: left;
+    font-size: 0.85rem;
+    font-style: italic;
+}

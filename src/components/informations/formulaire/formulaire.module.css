@@ -1,0 +1,26 @@
+.radio{
+    margin-right: 0.5rem;
+}
+
+.radioLabel{
+    margin-right: 1rem;
+}
+
+.mainForm {
+    width:80%;
+    margin:auto;
+}
+
+@media screen and (max-width: 842px) {
+    .mainForm {
+        width:100%;
+        margin:auto;
+    }
+
+    .priceCoti{
+        padding-left: 0rem;
+  }
+}
+  sup {
+      color:red
+  }
