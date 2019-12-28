@@ -2,7 +2,7 @@ import React from "react"
 import TitleSection from "../../styledComponents/titleStyled"
 import Salle from "./salle"
 import SallesLink from "../../../constants/sallesInfos"
-import Marcelly from "../../../images/marcelly.PNG"
+import Marcelly from "../../../images/marcelly.png"
 
 const Salles = () => {
   return (
