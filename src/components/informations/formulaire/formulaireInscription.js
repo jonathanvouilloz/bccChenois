@@ -29,7 +29,7 @@ const FormulaireInscription = () => {
         <a href={data.pdfInscription.publicURL} target="_blank"> Télécharge le formulaire d'inscription et apporte le nous directement</a>
         </p>
         <p class="has-text-weight-bold">Ou</p>
-        <p role="dl">Remplis le formulaire directement ici ⬇️</p>
+        <p role="dl">Remplis le formulaire directement ici</p>
         <div>__________________</div><br />
             <form rel="noopener noreferrer" method="POST" action="https://formspree.io/jojo-acdc@hotmail.com">
             <div class="field">
