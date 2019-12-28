@@ -12,7 +12,7 @@ const salle = ({ nom, adresse, imgMap, link, entrainement }) => {
         <div class="has-text-left">
           <p>{adresse}</p>
           <figure>
-            <img src={imgMap} alt={nom} />
+            {/* <img src={imgMap} alt={nom} /> */}
           </figure>
           <section class="columns">
             <div class="column has-text-left">
