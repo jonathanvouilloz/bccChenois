@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout/layout"
 import {Link} from 'gatsby'
+import SEO from "../components/seo/seo"
 
 const error = () => {
   return (
     <Layout>
+                  <SEO titleD="404"  />
+
       <section class="hero is-primary is-large">
         <div class="hero-body">
           <div class="container has-text-centered">

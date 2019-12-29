@@ -10,9 +10,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `BCC Chênois`,
-    siteUrl: `https://www.bccchenois.ch`,
-    description: `Site internet du club BCC Chenois. Retrouvez tous nos actualités et plus encore.`,
+    title: `BC Chênois`,
+    siteUrl: `https://www.bcchenois.ch`,
+    description: `Site internet du club BC Chenois basé à Thônex et Chêne-Bourg.`,
     twitterUsername: "@Jon_Praxie",
     image:"/logo.png",
   },
@@ -38,11 +38,20 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.bcchenois.ch',
+        sitemap: 'https://www.bcchenois.ch/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
   ],
 }

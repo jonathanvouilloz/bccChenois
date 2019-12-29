@@ -19,7 +19,7 @@ const Header = () => {
       <div className={styles.navCenter}>
       <div className={styles.navHeader}>
           <AniLink fade to="./">
-          <img class={styles.logoFix} src={logo} alt="bcc-chenois-logo" />
+          <img class={styles.logoFix} src={logo} alt="bc-chenois-logo" />
           </AniLink>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <AiOutlineMenu className={styles.logoIcon} />

@@ -4,6 +4,8 @@ import Layout from "../components/layout/layout"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 import TitleStyled from "../components/styledComponents/titleStyled"
 import styles from "./blogTemplate.module.css"
+import SEO from "../components/seo/seo"
+
 
 const Blog = ({ data }) => {
   const {
@@ -41,6 +43,7 @@ const Blog = ({ data }) => {
   }
   return (
     <Layout>
+      <SEO titleD={title} />
       <div class="container is-fluid has-text-centered">
         <TitleStyled title={title} primary />
         <article class="container is-fluid has-text-left column is-two-thirds">
