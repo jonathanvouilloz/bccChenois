@@ -25,7 +25,7 @@ const Blog = ({ data }) => {
             {node.data.target.fields.file["en-US"].contentType ===
             "application/pdf" ? (
               <a
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 href={node.data.target.fields.file["en-US"].url}
               >
                 Bonjour
@@ -44,7 +44,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <SEO titleD={title} />
-      <div class="container is-fluid has-text-centered">
+      <div class="container has-text-centered">
         <article class="container is-fluid has-text-left column is-two-thirds">
         <TitleStyled title={title} primary />
           <div class="columns is-mobile">

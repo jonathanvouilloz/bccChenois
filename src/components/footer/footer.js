@@ -11,7 +11,7 @@ const footer = () => {
   return (
       <footer class=" footer has-text-centered has-background-dark">
         <div class="columns is-mobile">
-            <div class="column has-text-left container is-fluid">
+            <div class="column has-text-left container">
             <ul class={styles.liste}>
             {links.map((item, index) => {
               

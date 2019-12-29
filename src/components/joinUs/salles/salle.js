@@ -22,7 +22,7 @@ const Salle = ({ nom, adresse, img, link, }) => {
           </figure>
           <section class="columns">
             <div class="column has-text-left">
-              <a target="_blank" href={link} class="has-text-left">
+              <a target="_blank" rel="noopener noreferrer" href={link} class="has-text-left">
                 Ouvrir sur Google Maps
               </a>
             </div>

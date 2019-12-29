@@ -26,7 +26,7 @@ const membreBox = ({ role, name, sentence }) => {
                   <FaHandPointRight /> Contact
                 </span>
               </div>
-              <div class="dropdown-menu" role="info">
+              <div class="dropdown-menu">
                 <div class="dropdown-content">
                   <div class="dropdown-item has-text-left">
                     <p>

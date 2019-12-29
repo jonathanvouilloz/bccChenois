@@ -25,25 +25,30 @@ const FormulaireInscription = () => {
         <div class={styles.mainForm}>
           <section class="container is-fluid has-text-left">
             <p>
-              <a href={data.pdfInscription.publicURL} target="_blank">
+              <a
+                href={data.pdfInscription.publicURL}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 {" "}
                 Télécharge le formulaire d'inscription et apporte le nous
                 directement
               </a>
             </p>
             <p class="has-text-weight-bold">Ou</p>
-            <p role="dl">Remplis le formulaire directement ici ⬇️</p>
+            <p>
+              Remplis le formulaire directement ici <span>⬇️</span>
+            </p>
             <div>__________________</div>
             <br />
             <form
-              rel="noopener noreferrer"
               method="POST"
               action="https://formspree.io/jojo-acdc@hotmail.com"
             >
               <div class="field">
                 <label class="label">Civilité</label>
                 <div class="control">
-                  <label class={styles.radioLabel}>
+                  <label name="Civilité" class={styles.radioLabel}>
                     <input
                       type="radio"
                       value="M."
@@ -52,7 +57,7 @@ const FormulaireInscription = () => {
                     />
                     M.
                   </label>
-                  <label class={styles.radioLabel}>
+                  <label name="Civilité" class={styles.radioLabel}>
                     <input
                       type="radio"
                       value="Mme"
@@ -66,7 +71,7 @@ const FormulaireInscription = () => {
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
-                    <label class="label">Nom</label>
+                    <label name="Nom" class="label">Nom</label>
                     <p class=" is-expanded">
                       <input
                         required
@@ -79,7 +84,7 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div class="field">
-                    <label class="label">Prénom</label>
+                    <label name="Prénom" class="label">Prénom</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -92,7 +97,7 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div class="field">
-                    <label class="label">Date de naissance</label>
+                    <label name="Date de naissance" class="label">Date de naissance</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -108,7 +113,7 @@ const FormulaireInscription = () => {
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
-                    <label class="label">Adresse 1</label>
+                    <label name="Adresse 1" class="label">Adresse 1</label>
                     <p class="control">
                       <input
                         required
@@ -121,7 +126,7 @@ const FormulaireInscription = () => {
 
                     <div class="field">
                       {" "}
-                      <label class="label">Adresse 2</label>
+                      <label name="Adresse 2" class="label">Adresse 2</label>
                       <p class="control is-expanded">
                         <input
                           class="input"
@@ -138,7 +143,7 @@ const FormulaireInscription = () => {
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
-                    <label class="label">Localité</label>
+                    <label name="Localité" class="label">Localité</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -149,13 +154,13 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div class="field">
-                    <label class="label">NPA</label>
+                    <label name="NPA" class="label">NPA</label>
                     <p class="control is-expanded">
                       <input required class="input" type="text" name="NPA" />
                     </p>
                   </div>
                   <div class="field">
-                    <label class="label">
+                    <label name="Nationalité" class="label">
                       Nationalité<sup>1</sup>
                     </label>
                     <p class="control is-expanded">
@@ -169,7 +174,7 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div class="field">
-                    <label class="label">Pays</label>
+                    <label name="Pays" class="label">Pays</label>
                     <p class="control">
                       <div class="select">
                         <select name="Pays">
@@ -185,7 +190,7 @@ const FormulaireInscription = () => {
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
-                    <label class="label">Adresse mail</label>
+                    <label name="Adresse mail" class="label">Adresse mail</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -196,7 +201,7 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div class="field">
-                    <label class="label">N° Téléphone maison</label>
+                    <label name="Téléphone fixe" class="label">N° Téléphone maison</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -207,7 +212,7 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div class="field">
-                    <label class="label">N° Téléphone portable</label>
+                    <label name="Téléphone portable" class="label">N° Téléphone portable</label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -225,7 +230,7 @@ const FormulaireInscription = () => {
                   <h3>Cotisation Badminton Club Chênois</h3>
                   <br />
                   <div class="column">
-                    <label class="label">
+                    <label name="CotisationClub" class="label">
                       <input
                         type="checkbox"
                         name="CotisationClub"
@@ -237,7 +242,7 @@ const FormulaireInscription = () => {
                     <span>50.- CHF</span>
                   </div>
                   <div class="column">
-                    <label class="label">
+                    <label name="CotisationClub" class="label">
                       <input
                         type="checkbox"
                         name="CotisationClub"
@@ -249,7 +254,7 @@ const FormulaireInscription = () => {
                     <span>170.- CHF</span>
                   </div>
                   <div class="column">
-                    <label class="label">
+                    <label name="CotisationClub" class="label">
                       <input
                         type="checkbox"
                         name="CotisationClub"
@@ -266,7 +271,7 @@ const FormulaireInscription = () => {
                   <h3>Cotisation Swiss Badminton</h3>
                   <br />
                   <div class="column">
-                    <label class="label">
+                    <label name="cotisationSwissBad" class="label">
                       <input
                         type="checkbox"
                         name="cotisationSwissBad"
@@ -278,7 +283,7 @@ const FormulaireInscription = () => {
                     <span>20.- CHF</span>
                   </div>
                   <div class="column">
-                    <label class="label">
+                    <label name="cotisationSwissBad" class="label">
                       <input
                         type="checkbox"
                         name="cotisationSwissBad"
@@ -291,7 +296,7 @@ const FormulaireInscription = () => {
                     <span>40.- CHF</span>
                   </div>
                   <div class="column">
-                    <label class="label">
+                    <label name="cotisationSwissBad" class="label">
                       <input
                         type="checkbox"
                         name="cotisationSwissBad"
@@ -308,7 +313,9 @@ const FormulaireInscription = () => {
               <div class="field is-horizontal">
                 <div class="field-body">
                   <div class="field">
-                    <label class="label">Date du jour</label>
+                    <label name="Date du jour" class="label">
+                      Date du jour
+                    </label>
                     <p class="control is-expanded">
                       <input
                         required
@@ -319,7 +326,7 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div class="field">
-                    <label class="label">
+                    <label name="Signature" class="label">
                       Signature{" "}
                       <span class="is-size-7">
                         (Pour les mineurs, signature du représentant légal)
