@@ -48,7 +48,9 @@ const footer = () => {
               <span class={styles.contact}>Contact</span><br />
                 <span class={styles.infoContact}>022.345.34.23</span><br />
                 <span class={styles.infoContact}>bcchenois@gmail.com</span><br />
-                <span class={styles.infoContact}>45 rue des américains, Israel</span>
+                <span class={styles.infoContact}>Badminton Club Chênois
+Case postale 135
+1226 Thônex</span>
         
             
             </div>

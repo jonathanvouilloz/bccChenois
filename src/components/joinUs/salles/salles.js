@@ -37,19 +37,19 @@ const Salles = () => {
       <div class="columns">
         <Salle
           nom="Collège de Candolle"
-          adresse="CO Seymaz / Avenue A.-M.-Mirany 36 / 1225 Chêne-Bourg"
+          adresse="Collège de Candolle / Avenue A.-M.-Mirany 36 / 1225 Chêne-Bourg"
           img={data.candolle.childImageSharp.fluid}
           link={InfoSalles[2].link}
         />
         <Salle
           nom="École de Marcelly"
-          adresse="Ecole de Marcelly / 10, ch. de Marcelly / 1226 Thônex"
+          adresse="Ecole de Marcelly / 10, chemin de Marcelly / 1226 Thônex"
           img={data.marcelly.childImageSharp.fluid}
           link={InfoSalles[0].link}
         />
         <Salle
           nom="Espace du Bois-des-Arts"
-          adresse="Ecole du Bois-des-Arts / 62, ch. du Bois-des-Arts / 1226 Thônex"
+          adresse="Ecole du Bois-des-Arts / 62, chemin du Bois-des-Arts / 1226 Thônex"
           img={data.bois.childImageSharp.fluid}
           link={InfoSalles[1].link}
         />

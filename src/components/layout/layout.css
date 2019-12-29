@@ -15,13 +15,18 @@
 }
 
 main {
-  flex:1
+  flex:1;
+}
+
+.mainCOlor{
+  background-color: #fefefe
 }
 
 .bodyPage {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #fefefe;
 }
 
 body {
