@@ -29,7 +29,7 @@ const Hero = () => {
               concernant notre club !
             </h3>
             <br/>
-            <AniLink  fade to="./informations">
+            <AniLink  to="./joinUs">
               <button class="button is-primary is-inverted is-outlined is-large is-uppercase ">
               faire un essai
               </button>

@@ -27,7 +27,7 @@ const Salle = ({ nom, adresse, img, link, }) => {
               </a>
             </div>
             <div class="column has-text-right has-text-left-mobile has-text-primary">
-              <Link to="/joinUs">
+              <Link to="/inscription">
                 <span>Horaires entrainement</span>
               </Link>
             </div>

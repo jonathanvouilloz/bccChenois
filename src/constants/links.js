@@ -4,11 +4,11 @@ export default [
         name: 'Accueil'
     },
     {
-        path: '/blog',
-        name: 'Blog'
+        path: '/news',
+        name: 'Actualités'
     },
     {
-        path: '/joinUs',
+        path: '/inscription',
         name: 'Rejoins-nous'
     },
     {

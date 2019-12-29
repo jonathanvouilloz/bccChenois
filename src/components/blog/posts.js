@@ -6,7 +6,7 @@ import {graphql, useStaticQuery} from "gatsby"
 
 const getAllPost = graphql`
 query {
-    allPosts: allContentfulBlogPost(sort:{fields:publishedDate,order:DESC},limit:3) {
+    allPosts: allContentfulBlogPost(sort:{fields:publishedDate,order:DESC}) {
       edges {
         node {
           title
@@ -29,7 +29,7 @@ const Posts = () => {
 
   return (
     <div class="container has-text-centered">
-      <TitleSection title="Nos derniers" subtitle="articles" />
+      <TitleSection title="Les dernières" subtitle="news" />
       <section class="section">
       <div class="container columns is-multiline">
       {allPosts.edges.map(({node})=>{

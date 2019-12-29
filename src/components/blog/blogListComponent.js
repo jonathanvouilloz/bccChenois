@@ -2,8 +2,13 @@ import React from 'react'
 import styles from "./posts.module.css"
 import { GiShuttlecock } from "react-icons/gi"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
+
 
 const BlogListComponent = ({ key, post}) => {
+  const {
+    content: { json },
+  } = post
     return (
         <div class="container is-fluid column is-8">
         <div class="card">
@@ -25,17 +30,14 @@ const BlogListComponent = ({ key, post}) => {
           </div>
           <div class="content has-text-left">
             <span class="has-text-grey">
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor a commodo consequat. Duis aute irure dolor
-              in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla...
+         
             </span>
             <br />
           </div>
-          <div class="content has-text-right">
+          <div class="content has-text-left">
             <span>
-            <AniLink fade to={`/blog/${post.slug}`}>
-            Lire la suite
+            <AniLink to={`/news/${post.slug}`}>
+            Lire l'article
           </AniLink>
             </span>
           </div>

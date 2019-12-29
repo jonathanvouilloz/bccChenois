@@ -2,7 +2,6 @@ import React from "react"
 import TitleSection from "../../styledComponents/titleStyled"
 import styles from "./cours.module.css"
 import CoursInfo from "../../../constants/coursInfoJunior"
-import {GiShuttlecock} from "react-icons/gi"
 
 const cours = () => {
 

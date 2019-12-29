@@ -6,7 +6,7 @@ exports.createPages = async function({ actions, graphql }) {
 
     const { data } = await graphql(`
     query {
-        posts:allContentfulBlogPost {
+        posts:allContentfulBlogPost(sort:{fields:publishedDate,order:DESC}) {
           edges {
             node {
               slug
@@ -15,12 +15,11 @@ exports.createPages = async function({ actions, graphql }) {
         }
       }
     `)
-    data.posts.edges.forEach(({node}) => {
-
-      createPage({
-        path: `blog/${node.slug}`,
-        component: require.resolve(`./src/templates/blogTemplate.js`),
-        context: { slug: node.slug },
-      })
+    data.posts.edges.forEach(({previous, node}) => {
+        createPage({
+          path: `news/${node.slug}`,
+          component: require.resolve(`./src/templates/blogTemplate.js`),
+          context: { slug: node.slug},
+        })
     })
   }
