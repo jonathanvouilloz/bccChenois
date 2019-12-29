@@ -1,21 +1,52 @@
-.footerLinks  {
-  display: inline-block;
-  padding: 1rem 1rem 2rem 1rem;
-}
 
 .footerLinks a {
   text-decoration: none;
-  text-transform: uppercase;
-  color:var(--mainWhite);
-  font-size: 1rem;
+  color:#C0C0C0;
+  font-size: 0.8rem;
   transition: var(--mainTransition);
-  letter-spacing: var(--mainSpacing);
+}
+
+.footerLinks {
+  text-decoration: none;
+}
+.divider{
+  background-color: white;
+  width:80%;
+  margin: 1.5rem auto;
+}
+.logo {
+  height:40px;
+  margin-top: 2rem;
+  margin-right:15px
+}
+.infoContact{
+  color:#C0C0C0;
+  transition: var(--mainTransition);
+  font-size: 0.8rem;
+}
+.contact{
+  text-decoration: underline;
+  color:#C0C0C0
+}
+
+.liste {
+  list-style-type: none;
 }
 
 .footerLinks a:hover{
   color:var(--primaryColor);
 }
 
+.socialIcons{
+ padding-left:0.5rem;
+ font-size: 1rem;
+ color:var(--primaryColor);
+ transition: 0.4s;
+}
+.socialIcons:hover{
+  color:var(--mainWhite);
+  transform: translateY(-5px);
+}
 
 .linksDiv {
     display: inline-block;

@@ -45,23 +45,24 @@ const Blog = ({ data }) => {
     <Layout>
       <SEO titleD={title} />
       <div class="container is-fluid has-text-centered">
-        <TitleStyled title={title} primary />
         <article class="container is-fluid has-text-left column is-two-thirds">
-          <div class={styles.delimiter} />
+        <TitleStyled title={title} primary />
           <div class="columns is-mobile">
             <span class="is-italic column">
               Par <strong>{auteur}</strong>
             </span>
-            <br />
             <span class="is-italic column has-text-right">{publishedDate}</span>
           </div>
-          <content>{documentToReactComponents(json, options)}</content>
+          <div class={styles.delimiter} />
+
+          <content class={styles.content}>{documentToReactComponents(json, options)}</content>
           <br />
+          <div class={styles.delimiter} />
+          <br />
+
           <div class="has-text-left">
-            <Link to="./news">
-              <button class="button is-primary is-outlined is-uppercase ">
-                Retour aux actualités
-              </button>
+            <Link class={styles.retour} to="./news">
+             Retour aux news
             </Link>
           </div>
           <br />
