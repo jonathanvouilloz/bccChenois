@@ -28,7 +28,7 @@ const Blog = ({ data }) => {
                 target="_blank" rel="noopener noreferrer"
                 href={node.data.target.fields.file["en-US"].url}
               >
-                Bonjour
+                {node.data.target.fields.title["en-US"]}
               </a>
             ) : (
               <img
