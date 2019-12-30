@@ -1,0 +1,47 @@
+
+
+.winner{
+    background-color:#4ee44e;
+    color: var(--mainWhite);
+}
+
+
+table{
+    width:80%;
+    margin:auto;
+}
+
+.titleInterclub{
+    margin:1rem 0;
+    font-size: 1.5rem;
+}
+
+.WoL{
+    font-size: 1.5rem;
+}
+
+
+.resume {
+       
+    width:80%;
+    margin: auto;
+}
+
+.win {
+    color:green;
+}
+.lose{
+    color:red
+}
+
+@media screen and (max-width: 776px) {
+    table{
+        width:100%;
+        margin:auto;
+    }
+    .resume {
+       
+            width:100%;
+        
+    }
+  }
