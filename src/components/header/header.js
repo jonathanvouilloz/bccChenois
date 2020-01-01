@@ -23,59 +23,9 @@ const Header = () => {
             <AiOutlineMenu className={styles.logoIcon} />
           </button>
         </div>
-        <ul className="is-hidden-mobile">
-
-        <div className={styles.dropdown}>
-          <span className={styles.dropText}><AniLink
-                to="./"
-                activeStyle={{ color: "#35B0F6" }}
-              >
-                Accueil
-              </AniLink></span>
-        </div>
-        <div className={styles.dropdown}>
-          <span className={styles.dropTextTitle}>Actualités</span>
-          <div className={styles.dropdown_content}>
-            <p className={styles.dropText}>
-              <AniLink
-                to="./news"
-                fade
-                activeStyle={{ color: "#35B0F6" }}
-              >
-                Articles
-              </AniLink>
-            </p>
-            <p className={styles.dropText}>
-              <AniLink
-                to="./informations"
-                activeStyle={{ color: "#35B0F6" }}
-              >
-                Interclub
-              </AniLink>
-            </p>
-          </div>
-        </div>
-        <div className={styles.dropdown}>
-          <span className={styles.dropText}><AniLink
-                to="./inscription"
-                activeStyle={{ color: "#35B0F6" }}
-              >
-                Rejoins-nous
-              </AniLink></span>
-        </div>
-        <div className={styles.dropdown}>
-          <span className={styles.dropText}><AniLink
-                to="./informations"
-                activeStyle={{ color: "#35B0F6" }}
-              >
-                Infos
-              </AniLink></span>
-        </div>
-        </ul>
 
 
-
-        <div className="is-hidden-tablet">
+        <div>
           {" "}
           <ul
             className={
