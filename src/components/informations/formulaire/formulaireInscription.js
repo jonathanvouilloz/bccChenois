@@ -37,7 +37,7 @@ const FormulaireInscription = () => {
             </p>
             <p class="has-text-weight-bold">Ou</p>
             <p>
-              Remplis le formulaire directement ici <span>⬇️</span>
+              Remplis le formulaire directement ici <span role="img">⬇️</span>
             </p>
             <div>__________________</div>
             <br />
@@ -176,12 +176,12 @@ const FormulaireInscription = () => {
                   <div class="field">
                     <label name="Pays" class="label">Pays</label>
                     <p class="control">
-                      <div class="select">
+                      <p class="select">
                         <select name="Pays">
                           <option>Suisse</option>
                           <option>France</option>
                         </select>
-                      </div>
+                      </p>
                     </p>
                   </div>
                 </div>

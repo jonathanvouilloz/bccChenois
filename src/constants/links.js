@@ -5,7 +5,11 @@ export default [
     },
     {
         path: '/news',
-        name: 'Actualités'
+        name: 'Articles'
+    },
+    {
+        path: '/news',
+        name: 'Interclub'
     },
     {
         path: '/inscription',

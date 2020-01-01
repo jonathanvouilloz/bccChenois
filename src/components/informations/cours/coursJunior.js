@@ -14,6 +14,7 @@ const cours = () => {
         <div class="table-container has-text-centered">
           <table class="table is-fullwidth is-striped is-bordered">
             <thead>
+            <tr>
                 <th>Jour</th>
                 <th>Lieu</th>
                 <th>Début</th>
@@ -21,10 +22,9 @@ const cours = () => {
                 <th>Cat. d'âge</th>
                 <th>Niveau</th>
                 <th>Cours</th>
-            </thead>
+            </tr></thead>
             <tbody>
               {CoursInfo.map((item, index) => {
-                console.log(item)
 
                 return (
                   <tr>

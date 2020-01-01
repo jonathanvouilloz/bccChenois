@@ -18,7 +18,6 @@ const Blog = ({ data }) => {
   const options = {
     renderNode: {
       "embedded-asset-block": node => {
-        console.log(node)
 
         return (
           <div>

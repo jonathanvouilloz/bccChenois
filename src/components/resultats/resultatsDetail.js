@@ -3,15 +3,25 @@ import styles from "./resultats.module.css"
 import Divider from "../styledComponents/dividerV2"
 import {MdMoodBad,MdMood} from "react-icons/md"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
+import StyledTitle from "../styledComponents/titleStyled"
 
 const ResultatsInfo = ({ interclub, id }) => {
 
 
   return (
     <div class="container is-fluid has-text-centered">
-      <h2 class={styles.titleInterclub}>{interclub.title}</h2>
+      <StyledTitle title={interclub.title} primary />
       <br />
         <div class="table-container">
+        <div class={styles.resume}>
+    
+
+            <div class="has-text-left">
+                <h2 class="is-size-4 is-uppercase"><span class={styles.underline}>Résumé</span></h2>
+                <content class={styles.content}>{documentToReactComponents(interclub.resultats.json)}</content>
+            </div>
+        </div>
+        <p>⬇️⬇️⬇️⬇️⬇️</p>
         <table class="table is-striped is-bordered">
           <thead>
             <th>Match</th>
@@ -37,12 +47,6 @@ const ResultatsInfo = ({ interclub, id }) => {
               </tr>
             })}      
         </table>
-        </div>
-        <div class={styles.resume}>
-            <div class="has-text-left">
-                <h2 class="is-size-4 is-uppercase">Résumé</h2>
-                <content class={styles.content}>{documentToReactComponents(interclub.resultats.json)}</content>
-            </div>
         </div>
         <Divider />
     </div>
