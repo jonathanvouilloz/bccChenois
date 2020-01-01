@@ -9,14 +9,14 @@ import logo from '../../images/logo.png'
 
 const footer = () => {
   return (
-      <footer class=" footer has-text-centered has-background-dark">
-        <div class="columns is-mobile">
-            <div class="column has-text-left container">
-            <ul class={styles.liste}>
+      <footer className=" footer has-text-centered has-background-dark">
+        <div className="columns is-mobile">
+            <div className="column has-text-left container">
+            <ul className={styles.liste}>
             {links.map((item, index) => {
               
             return (
-                <li key={index} class={styles.footerLinks}>
+                <li key={index} className={styles.footerLinks}>
                   <Link activeStyle={{color: '#35B0F6'}} to={item.path}>{item.name}</Link>
                 </li>
             )
@@ -24,18 +24,18 @@ const footer = () => {
           })}</ul>
           
             </div>
-            <div class="column container is-hidden-mobile">
+            <div className="column container is-hidden-mobile">
      
-        <img class={styles.logo} src={logo} alt="bc-chenois-logo" />
+        <img className={styles.logo} src={logo} alt="bc-chenois-logo" />
             </div>
-            <div class="column has-text-right">
+            <div className="column has-text-right">
     
 
               
             {socialIcons.map((item, index) => {
             return (
               <a
-              class={styles.socialIcons}
+              className={styles.socialIcons}
                 key={index}
                 href={item.url}
                 target="_blank"
@@ -45,10 +45,10 @@ const footer = () => {
               </a>
             )
           })}<br />
-              <span class={styles.contact}>Contact</span><br />
-                <span class={styles.infoContact}>022.345.34.23</span><br />
-                <span class={styles.infoContact}>bcchenois@gmail.com</span><br />
-                <span class={styles.infoContact}>Badminton Club Chênois
+              <span className={styles.contact}>Contact</span><br />
+                <span className={styles.infoContact}>022.345.34.23</span><br />
+                <span className={styles.infoContact}>bcchenois@gmail.com</span><br />
+                <span className={styles.infoContact}>Badminton Club Chênois
 Case postale 135
 1226 Thônex</span>
         
@@ -57,7 +57,7 @@ Case postale 135
           
         </div>
 
-        <span class={styles.infoContact}>
+        <span className={styles.infoContact}>
         &copy; 2019 BCC - Réalisé par Jonathan Vouilloz
         </span>
      

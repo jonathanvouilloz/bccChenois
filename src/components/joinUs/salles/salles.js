@@ -34,7 +34,7 @@ const Salles = () => {
   return (
     <div className="container is-fluid has-text-centered">
       <TitleSection title="Nos salles" subtitle="à disposition" primary />
-      <div class="columns">
+      <div className="columns">
         <Salle
           nom="Collège de Candolle"
           adresse="Collège de Candolle / Avenue A.-M.-Mirany 36 / 1225 Chêne-Bourg"

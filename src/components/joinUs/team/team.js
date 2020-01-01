@@ -6,7 +6,7 @@ import styles from "./team.module.css"
 
 const team = () => {
   return (
-    <div class={styles.main}>
+    <div className={styles.main}>
       <div className="container is-centered">
         <div className="container has-text-centered">
           <Title title="L'" subtitle="équipe" />

@@ -43,24 +43,24 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <SEO titleD={title} />
-      <div class="container has-text-centered">
-        <article class="container is-fluid has-text-left column is-two-thirds">
+      <div className="container has-text-centered">
+        <article className="container is-fluid has-text-left column is-two-thirds">
         <TitleStyled title={title} primary />
-          <div class="columns is-mobile">
-            <span class="is-italic column">
+          <div className="columns is-mobile">
+            <span className="is-italic column">
               Par <strong>{auteur}</strong>
             </span>
-            <span class="is-italic column has-text-right">{publishedDate}</span>
+            <span className="is-italic column has-text-right">{publishedDate}</span>
           </div>
-          <div class={styles.delimiter} />
+          <div className={styles.delimiter} />
 
-          <content class={styles.content}>{documentToReactComponents(json, options)}</content>
+          <content className={styles.content}>{documentToReactComponents(json, options)}</content>
           <br />
-          <div class={styles.delimiter} />
+          <div className={styles.delimiter} />
           <br />
 
-          <div class="has-text-left">
-            <Link class={styles.retour} to="./news">
+          <div className="has-text-left">
+            <Link className={styles.retour} to="./news">
              Retour aux news
             </Link>
           </div>

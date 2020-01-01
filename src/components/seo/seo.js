@@ -22,6 +22,7 @@ const Seo = ({titleD, descriptionD}) => {
         <Helmet htmlAttributes={{lang:"fr"}} title={title + ` | ` +titleD}>
             <meta name="description" content={description + ' - ' +descriptionD}/>
             <meta name="image" content={image} />
+            <meta name="keywords" content="badminton, chênois, thônex, chêne-bourg, genève, interclub, junior, jeune, bcc, essayer, amusement, sport, enfant, adolescent" />
             <meta name="twitter:creator" content={twitterUsername}/>
         </Helmet>
     )

@@ -19,13 +19,13 @@ const Hero = () => {
 
   return (
     <BackgroundImage fluid={data.bgHero.childImageSharp.fluid}>
-      <section class="hero is-fullheight">
-        <div class="hero-body">
-          <div class="container has-text-centered is-uppercase">
+      <section className="hero is-fullheight">
+        <div className="hero-body">
+          <div className="container has-text-centered is-uppercase">
             <h1 className={styles.titleHero}>
-              <span class="has-text-primary">b</span>adminton{" "}
-              <span class="has-text-primary">C</span>lub{" "}
-              <span class="has-text-primary">C</span>hênois
+              <span className="has-text-primary">b</span>adminton{" "}
+              <span className="has-text-primary">C</span>lub{" "}
+              <span className="has-text-primary">C</span>hênois
             </h1>
             <h3 className={styles.titleSecond}>
               Retrouve notre actualité et tous plein d'autre informations
@@ -33,7 +33,7 @@ const Hero = () => {
             </h3>
             <br />
             <AniLink to="./inscription">
-              <button class="button is-primary is-inverted is-outlined is-large is-uppercase ">
+              <button className="button is-primary is-inverted is-outlined is-large is-uppercase ">
                 faire un essai
               </button>
             </AniLink>

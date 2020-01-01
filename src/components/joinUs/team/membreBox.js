@@ -8,33 +8,33 @@ const membreBox = ({ role, name, sentence }) => {
     <div className="column is-half has-text-centered">
       <div className="container columns is-fluid">
         <div
-          class="container is-centered has-text-centered column is-two-fifths">
-          <figure class="container image is-128x128">
-            <img class={styles.avatar} src={img} alt={name} />
+          className="container is-centered has-text-centered column is-two-fifths">
+          <figure className="container image is-128x128">
+            <img className={styles.avatar} src={img} alt={name} />
           </figure>
-          <div class="has-text-left  is-hidden-desktop ">
-          <span class={styles.infoMembre}>022334342</span>
+          <div className="has-text-left  is-hidden-desktop ">
+          <span className={styles.infoMembre}>022334342</span>
                     <br />
-                    <span class={styles.infoMembre}>
+                    <span className={styles.infoMembre}>
                       dsunsdsdsadsdsdf@gmail.com
                     </span>
           </div>
-          <div class="has-text-centered  is-hidden-mobile ">
-            <div class="dropdown is-hoverable">
-              <div class="dropdown-trigger">
+          <div className="has-text-centered  is-hidden-mobile ">
+            <div className="dropdown is-hoverable">
+              <div className="dropdown-trigger">
                 <span>
                   <FaHandPointRight /> Contact
                 </span>
               </div>
-              <div class="dropdown-menu">
-                <div class="dropdown-content">
-                  <div class="dropdown-item has-text-left">
+              <div className="dropdown-menu">
+                <div className="dropdown-content">
+                  <div className="dropdown-item has-text-left">
                     <p>
                       <strong>{name}</strong>
                     </p>
-                    <span class={styles.infoMembre}>022334342</span>
+                    <span className={styles.infoMembre}>022334342</span>
                     <br />
-                    <span class={styles.infoMembre}>
+                    <span className={styles.infoMembre}>
                       dsunsdsdsadsdsdf@gmail.com
                     </span>
                   </div>
@@ -45,9 +45,9 @@ const membreBox = ({ role, name, sentence }) => {
         </div>
         <br />
 
-        <div class="column has-text-left">
-          <h1 class="has-text-weight-bold is-uppercase has-text-left">
-            <span class={styles.underline}>{role}</span>
+        <div className="column has-text-left">
+          <h1 className="has-text-weight-bold is-uppercase has-text-left">
+            <span className={styles.underline}>{role}</span>
           </h1>
           <br />
           <p>{sentence}</p>

@@ -8,6 +8,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-informations-js": () => import("./../src/pages/informations.js" /* webpackChunkName: "component---src-pages-informations-js" */),
   "component---src-pages-inscription-js": () => import("./../src/pages/inscription.js" /* webpackChunkName: "component---src-pages-inscription-js" */),
+  "component---src-pages-interclub-js": () => import("./../src/pages/interclub.js" /* webpackChunkName: "component---src-pages-interclub-js" */),
   "component---src-pages-news-js": () => import("./../src/pages/news.js" /* webpackChunkName: "component---src-pages-news-js" */)
 }
 

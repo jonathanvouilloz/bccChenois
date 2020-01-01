@@ -7,11 +7,11 @@ const CoursAdulte = () => {
 
 
   return (
-    <div class="container is-fluid has-text-centered">
-      <TitleSection title="entraînement" subtitle="adultes" primary />
-      <div class="is-fluid container">
-        <div class="table-container has-text-centered">
-          <table class="table is-fullwidth is-striped is-bordered">
+    <div className="container is-fluid has-text-centered">
+      <TitleSection title="entraînement" subtitle="adultes" />
+      <div className="is-fluid container">
+        <div className="table-container has-text-centered">
+          <table className="table is-fullwidth is-striped is-bordered">
             <thead>
             <tr>
                 <th>Jour</th>
@@ -27,10 +27,10 @@ const CoursAdulte = () => {
 
                 return (
                   <tr>
-                    <p class="is-hidden-desktop is-hidden-tablet has-text-weight-bold">
-                      <span class={styles.underline}>Entraînement du {item.jour}</span>
+                    <p className="is-hidden-desktop is-hidden-tablet has-text-weight-bold">
+                      <span className={styles.underline}>Entraînement du {item.jour}</span>
                     </p>
-                    <td class=" is-hidden-mobile   is-hidden-tablet-only ">
+                    <td className=" is-hidden-mobile   is-hidden-tablet-only ">
                       {item.jour}
                     </td>
                     <td>{item.lieu}</td>

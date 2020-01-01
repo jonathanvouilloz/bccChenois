@@ -9,28 +9,27 @@ const ResultatsInfo = ({ interclub, id }) => {
 
 
   return (
-    <div class="container is-fluid has-text-centered">
-      <StyledTitle title={interclub.title} primary />
+    <div className="container is-fluid has-text-centered">
       <br />
-        <div class="table-container">
-        <div class={styles.resume}>
+        <div className="table-container">
+        <div className={styles.resume}>
     
 
-            <div class="has-text-left">
-                <h2 class="is-size-4 is-uppercase"><span class={styles.underline}>Résumé</span></h2>
-                <content class={styles.content}>{documentToReactComponents(interclub.resultats.json)}</content>
+            <div className="has-text-left">
+                <h2 className="is-size-4 is-uppercase"><span className={styles.underline}>{interclub.title}</span></h2>
+                <article className={styles.content}>{documentToReactComponents(interclub.resultats.json)}</article>
             </div>
         </div>
         <p>⬇️⬇️⬇️⬇️⬇️</p>
-        <table class="table is-striped is-bordered">
-          <thead>
+        <table className="table is-striped is-bordered">
+          <tr>
             <th>Match</th>
             <th>BC Chênois - BC Mandement</th>
-            <th class={styles.setTd}>Set 1</th>
-            <th class={styles.setTd}>Set 2</th>
-            <th class={styles.setTd}>Set 3</th>
-            <th class={styles.setTd}></th>
-          </thead>
+            <th className={styles.setTd}>Set 1</th>
+            <th className={styles.setTd}>Set 2</th>
+            <th className={styles.setTd}>Set 3</th>
+            <th className={styles.setTd}></th>
+          </tr>
 
           
           {interclub.match.map((match)=>{
@@ -41,9 +40,9 @@ const ResultatsInfo = ({ interclub, id }) => {
               <br /> {match.j2}{match.j4 ? ' - ' + match.j4 : ''} </td>
               <td style={{ verticalAlign:'middle'}}>{match.set1}</td>
 
-              <td style={{ verticalAlign:'middle'}} class={styles.setTd}>{match.set2}</td>
-              <td style={{ verticalAlign:'middle'}} class={styles.setTd}>{match.set3}</td>
-              <td style={{ verticalAlign:'middle'}} class={styles.WoL}><span class={match.win ? styles.win : styles.lose}>{match.win ? <MdMood /> : <MdMoodBad />}</span></td>
+              <td style={{ verticalAlign:'middle'}} className={styles.setTd}>{match.set2}</td>
+              <td style={{ verticalAlign:'middle'}} className={styles.setTd}>{match.set3}</td>
+              <td style={{ verticalAlign:'middle'}} className={styles.WoL}><span className={match.win ? styles.win : styles.lose}>{match.win ? <MdMood /> : <MdMoodBad />}</span></td>
               </tr>
             })}      
         </table>

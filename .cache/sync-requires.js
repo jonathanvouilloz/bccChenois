@@ -11,6 +11,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("D:\\gatsby\\bccChenois\\src\\pages\\index.js"))),
   "component---src-pages-informations-js": hot(preferDefault(require("D:\\gatsby\\bccChenois\\src\\pages\\informations.js"))),
   "component---src-pages-inscription-js": hot(preferDefault(require("D:\\gatsby\\bccChenois\\src\\pages\\inscription.js"))),
+  "component---src-pages-interclub-js": hot(preferDefault(require("D:\\gatsby\\bccChenois\\src\\pages\\interclub.js"))),
   "component---src-pages-news-js": hot(preferDefault(require("D:\\gatsby\\bccChenois\\src\\pages\\news.js")))
 }
 

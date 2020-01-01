@@ -10,23 +10,23 @@ const Salle = ({ nom, adresse, img, link, }) => {
   return (
 
 
-    <div class="column is-one-third container">
-      <div class="box">
+    <div className="column is-one-third container">
+      <div className="box">
         <h2>
           <span>{nom}</span>
         </h2>
-        <div class="has-text-left">
+        <div className="has-text-left">
           <p>{adresse}</p>
           <figure>
             <Image fluid={img} />
           </figure>
-          <section class="columns">
-            <div class="column has-text-left">
-              <a target="_blank" rel="noopener noreferrer" href={link} class="has-text-left">
+          <section className="columns">
+            <div className="column has-text-left">
+              <a target="_blank" rel="noopener noreferrer" href={link} className="has-text-left">
                 Ouvrir sur Google Maps
               </a>
             </div>
-            <div class="column has-text-right has-text-left-mobile has-text-primary">
+            <div className="column has-text-right has-text-left-mobile has-text-primary">
               <Link to="/inscription">
                 <span>Horaires entrainement</span>
               </Link>

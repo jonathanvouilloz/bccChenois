@@ -5,22 +5,22 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const BlogListComponent = ({ key, post }) => {
   return (
-    <div class="container is-fluid column is-8">
-      <div class="">
-        <div class="columns">
-          <div class="column is-8">
-            <h1 class=" is-size-4 is-uppercase has-text-left">
+    <div className="container is-fluid column is-8">
+      <div className="">
+        <div className="columns">
+          <div className="column is-8">
+            <h1 className=" is-size-4 is-uppercase has-text-left">
               <AniLink to={`/news/${post.slug}`}>
-                <span class={styles.underline}>{post.title}</span>
+                <span className={styles.underline}>{post.title}</span>
               </AniLink>
             </h1>
           </div>
-          <div class="is-hidden-mobile  column is-4 has-text-right">
-            <GiShuttlecock class={styles.iconBad} />
+          <div className="is-hidden-mobile  column is-4 has-text-right">
+            <GiShuttlecock className={styles.iconBad} />
           </div>
         </div>
-        <div class={styles.published}>
-          <p class={styles.publishedText}>
+        <div className={styles.published}>
+          <p className={styles.publishedText}>
             {post.publishedDate}
             <br />
             par {post.auteur}

@@ -10,6 +10,7 @@ data: allContentfulResultats {
     edges {
       node {
         title
+        id:contentful_id
         resultats
         {
             json
@@ -39,10 +40,9 @@ const Resultats = () => {
       
     return (
 
-        <div class="container is-fluid">
-            <br />
+        <div className="container">
                {data.edges.map(({node})=>{
-           return <ResultatDetail interclub={node} key={node.title} />
+           return <ResultatDetail interclub={node} key={node.id} />
             })}
               
         </div>

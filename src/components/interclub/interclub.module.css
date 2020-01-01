@@ -1,0 +1,15 @@
+.aboutInter {
+    margin: auto;
+    width:80%;
+}
+.aboutInter h2 {
+   text-decoration: underline;
+}
+
+li {
+   color:#696969;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}

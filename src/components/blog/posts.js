@@ -28,10 +28,10 @@ const Posts = () => {
     const {allPosts} = useStaticQuery(getAllPost);
 
   return (
-    <div class="container has-text-centered">
+    <div className="container has-text-centered">
       <TitleSection title="Les dernières" subtitle="news" />
-      <section class="section">
-      <div class="container columns is-multiline">
+      <section className="section">
+      <div className="container columns is-multiline">
       {allPosts.edges.map(({node})=>{
                 return <BlogListComponent key={node.id} post={node} />
             })}

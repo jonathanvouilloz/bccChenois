@@ -7,7 +7,7 @@ const layout = ({children}) => {
     return (
         <div className="bodyPage">
             <Header />
-            <main class="mainCOlor">{children}</main>
+            <main className="mainCOlor">{children}</main>
             <Footer />
         </div>
     )

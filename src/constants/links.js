@@ -8,15 +8,15 @@ export default [
         name: 'Articles'
     },
     {
-        path: '/news',
+        path: '/interclub',
         name: 'Interclub'
     },
     {
         path: '/inscription',
-        name: 'Rejoins-nous'
+        name: 'Inscription'
     },
     {
         path: '/informations',
-        name: 'Informations'
+        name: 'Infos'
     },
 ]
