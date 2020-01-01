@@ -273,7 +273,7 @@ const FormulaireInscription = () => {
                   <div class="column">
                     <label name="cotisationSwissBad" class="label">
                       <input
-                        type="checkbox"
+                        type="radio"
                         name="cotisationSwissBad"
                         value="Cotisation Swiss Badminton / 20.-"
                         class={styles.radio}
@@ -285,7 +285,7 @@ const FormulaireInscription = () => {
                   <div class="column">
                     <label name="cotisationSwissBad" class="label">
                       <input
-                        type="checkbox"
+                        type="radio"
                         name="cotisationSwissBad"
                         value="Cotisation Swiss Badminton / 40.-"
                         class={styles.radio}
@@ -298,7 +298,7 @@ const FormulaireInscription = () => {
                   <div class="column">
                     <label name="cotisationSwissBad" class="label">
                       <input
-                        type="checkbox"
+                        type="radio"
                         name="cotisationSwissBad"
                         value="Cotisation Swiss Badminton / 30.-"
                         class={styles.radio}
