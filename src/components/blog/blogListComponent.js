@@ -16,7 +16,9 @@ const BlogListComponent = ({ key, post }) => {
             </h1>
           </div>
           <div className="is-hidden-mobile  column is-4 has-text-right">
+          <AniLink to={`/news/${post.slug}`}>
             <GiShuttlecock className={styles.iconBad} />
+            </AniLink>
           </div>
         </div>
         <div className={styles.published}>

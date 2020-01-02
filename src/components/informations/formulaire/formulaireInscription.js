@@ -161,7 +161,7 @@ const FormulaireInscription = () => {
                   </div>
                   <div className="field">
                     <label name="Nationalité" className="label">
-                      Nationalité<sup>1</sup>
+                      Nationalité<span><sup> 1</sup></span>
                     </label>
                     <p className="control is-expanded">
                       <input

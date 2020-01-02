@@ -6,7 +6,7 @@ import styles from "./interclub.module.css"
 
 const Interclub = () => {
   return (
-    <body className="container has-text-centered">
+    <div className="container has-text-centered">
       <TitleSection subtitle="interclub" primary />
       <div className="container is-fluid">
         <div className="container has-text-left">
@@ -55,7 +55,7 @@ Une défaite 6-1 ou 7-0 rapporte 0 points
         <Equipe />
         <Resultats />
       </div>
-    </body>
+    </div>
   )
 }
 

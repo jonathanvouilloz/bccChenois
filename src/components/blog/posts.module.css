@@ -19,6 +19,12 @@
 .iconBad{
     font-size: 2rem;
     transform: rotate(25deg);
+    color:var(--mainBlack);
+    transition: ease-in 0.1s;
+
+}
+.iconBad:hover{
+    color:var(--primaryColor);
 }
 
 .published {
