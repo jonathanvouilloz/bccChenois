@@ -21,27 +21,27 @@ const ResultatsInfo = ({ interclub, id }) => {
         </div>
         <p>⬇️⬇️⬇️⬇️⬇️</p>
         <table className="table is-striped is-bordered">
-          <tr>
-            <th>Match</th>
-            <th>BC Chênois - BC Mandement</th>
-            <th className={styles.setTd}>Set 1</th>
-            <th className={styles.setTd}>Set 2</th>
-            <th className={styles.setTd}>Set 3</th>
-            <th className={styles.setTd}></th>
+          <tr className="has-background-white-ter">
+            <th className="has-text-centered">Match</th>
+            <th className="has-text-centered">BC Chênois - BC Mandement</th>
+            <th className="has-text-centered">Set 1</th>
+            <th className="has-text-centered">Set 2</th>
+            <th className="has-text-centered">Set 3</th>
+            <th className="has-text-centered"></th>
           </tr>
 
           
           {interclub.match.map((match)=>{
           return <tr>
-              <td style={{verticalAlign:'middle'}}>{match.match}</td>
+              <td className="has-text-centered has-background-white-ter" style={{verticalAlign:'middle'}}>{match.match}</td>
 
-              <td ><strong>{match.j1}{match.j3 ? ' - ' + match.j3 : ''}</strong> 
+              <td className="has-text-centered"><strong>{match.j1}{match.j3 ? ' - ' + match.j3 : ''}</strong> 
               <br /> {match.j2}{match.j4 ? ' - ' + match.j4 : ''} </td>
-              <td style={{ verticalAlign:'middle'}}>{match.set1}</td>
+              <td style={{ verticalAlign:'middle', textAlign:'center'}}>{match.set1}</td>
 
-              <td style={{ verticalAlign:'middle'}} className={styles.setTd}>{match.set2}</td>
-              <td style={{ verticalAlign:'middle'}} className={styles.setTd}>{match.set3}</td>
-              <td style={{ verticalAlign:'middle'}} className={styles.WoL}><span className={match.win ? styles.win : styles.lose}>{match.win ? <MdMood /> : <MdMoodBad />}</span></td>
+              <td style={{ verticalAlign:'middle', textAlign:'center'}}>{match.set2}</td>
+              <td style={{ verticalAlign:'middle', textAlign:'center'}} className={styles.setTd}>{match.set3}</td>
+              <td style={{ verticalAlign:'middle', textAlign:'center'}} className={styles.WoL}><span className={match.win ? styles.win : styles.lose}>{match.win ? <MdMood /> : <MdMoodBad />}</span></td>
               </tr>
             })}      
         </table>
