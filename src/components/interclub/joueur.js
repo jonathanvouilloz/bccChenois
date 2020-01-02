@@ -9,7 +9,7 @@ const Joueur = ({joueur, id}) => {
         <div class="column is-3 has-text-centered container">
          <div class={styles.card}>
           <div class={styles.bandeau} />
-          <img class={styles.logoCard} src={Logo} width="80px" />
+          <img alt="logo-bcc-chênois" class={styles.logoCard} src={Logo} width="80px" />
 
           <div class={styles.avatar}>
           <figure class="container image 256x256">

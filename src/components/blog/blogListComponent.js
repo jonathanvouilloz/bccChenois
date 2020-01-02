@@ -3,9 +3,9 @@ import styles from "./posts.module.css"
 import { GiShuttlecock } from "react-icons/gi"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
-const BlogListComponent = ({ key, post }) => {
+const BlogListComponent = ({ key, post, section }) => {
   return (
-    <div className="container is-fluid column is-8">
+    <div className={section === "home" ? 'container is-fluid column is-10' : "container is-fluid column is-8"}>
       <div className="">
         <div className="columns">
           <div className="column is-8">

@@ -346,7 +346,7 @@ const FormulaireInscription = () => {
               <p className="has-text-danger">*Merci de remplir tous les champs</p>
               <br />
               <div className="container has-text-centered">
-                <button className="button is-primary is-rounded is-medium is-outlined is-uppercase">
+                <button className="button is-primary is-medium is-outlined is-uppercase">
                   Envoyer le formulaire
                 </button>
                 <p></p>

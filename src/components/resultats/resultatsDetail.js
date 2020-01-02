@@ -4,22 +4,18 @@ import Divider from "../styledComponents/dividerV2"
 import {MdMoodBad,MdMood} from "react-icons/md"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
-const ResultatsInfo = ({ interclub, id }) => {
-
-
+const ResultatsInfo = ({ interclub, id, section }) => {
   return (
     <div className="container is-fluid has-text-centered">
       <br />
         <div className="table-container">
         <div className={styles.resume}>
-    
-
             <div className="has-text-left">
                 <h2 className="is-size-4 is-uppercase"><span className={styles.underline}>{interclub.title}</span></h2>
                 <article className={styles.content}>{documentToReactComponents(interclub.resultats.json)}</article>
             </div>
         </div>
-        <p>⬇️⬇️⬇️⬇️⬇️</p>
+        <p><span role="img">⬇️⬇️⬇️⬇️⬇️</span></p>
         <table className="table is-striped is-bordered">
           <tr className="has-background-white-ter">
             <th className="has-text-centered">Match</th>
@@ -46,7 +42,8 @@ const ResultatsInfo = ({ interclub, id }) => {
             })}      
         </table>
         </div>
-        <Divider />
+        {section === "home" ? <br /> :  <Divider />
+}
     </div>
   )
 }

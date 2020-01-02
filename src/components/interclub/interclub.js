@@ -53,6 +53,7 @@ Une défaite 6-1 ou 7-0 rapporte 0 points
           </div>
         </div>
         <Equipe />
+        <span id="resultats" />
         <Resultats />
       </div>
     </div>

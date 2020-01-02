@@ -21,7 +21,6 @@ query {
       }
     }
   }
-  
 `
 
 const Posts = () => {
@@ -34,10 +33,7 @@ const Posts = () => {
       <div className="container columns is-multiline">
       {allPosts.edges.map(({node})=>{
                 return <BlogListComponent key={node.id} post={node} />
-            })}
-    
-          
-        
+            })}      
         </div>
       </section>
     </div>
