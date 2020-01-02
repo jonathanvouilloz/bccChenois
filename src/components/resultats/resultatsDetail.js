@@ -3,7 +3,6 @@ import styles from "./resultats.module.css"
 import Divider from "../styledComponents/dividerV2"
 import {MdMoodBad,MdMood} from "react-icons/md"
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import StyledTitle from "../styledComponents/titleStyled"
 
 const ResultatsInfo = ({ interclub, id }) => {
 

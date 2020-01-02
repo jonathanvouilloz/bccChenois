@@ -13,7 +13,7 @@ const Joueur = ({joueur, id}) => {
 
           <div class={styles.avatar}>
           <figure class="container image 256x256">
-            <Image fixed={joueur.picture.fixed} />
+            <Image alt={joueur.prenom+'-'+joueur.nom} fixed={joueur.picture.fixed} />
           </figure>   
           </div>
            <p class={styles.both}><span class={styles.nom}>{joueur.nom} </span><br /><span class={styles.prenom}>{joueur.prenom} </span>

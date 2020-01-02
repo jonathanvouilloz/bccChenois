@@ -16,7 +16,7 @@ query {
           contentful_id
           picture {
             fixed(width:256, height:160) {
-              ...GatsbyContentfulFixed_tracedSVG
+              ...GatsbyContentfulFixed_withWebp
             }
           }
         }
