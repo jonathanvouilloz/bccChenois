@@ -9,11 +9,7 @@
 .footerLinks {
   text-decoration: none;
 }
-.divider{
-  background-color: white;
-  width:80%;
-  margin: 1.5rem auto;
-}
+
 .logo {
   height:40px;
   margin-top: 2rem;
@@ -48,23 +44,3 @@
   transform: translateY(-5px);
 }
 
-.linksDiv {
-    display: inline-block;
-    padding: 1rem 1.5rem;
-}
-
-  .nav-social-links {
-    line-height: 0;
-    margin-bottom: 1rem;
-  }
-  .nav-social-links a {
-    color: var(--mainWhite);
-    margin: 0 1rem;
-    font-size: 1rem;
-    transition: var(--mainTransition);
-  }
-
-  .nav-social-links a:hover {
-    color: var(--primaryColor);
-    transform: translateY(-5px);
-  }

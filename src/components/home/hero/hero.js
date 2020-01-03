@@ -1,8 +1,7 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import styles from "./hero.module.css"
-import { graphql, useStaticQuery } from "gatsby"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import { graphql, useStaticQuery, Link } from "gatsby"
 
 const Hero = () => {
   const data = useStaticQuery(graphql`
@@ -32,11 +31,11 @@ const Hero = () => {
               concernant notre club !
             </h3>
             <br />
-            <AniLink to="./inscription">
-              <button className="button is-primary is-inverted is-outlined is-large is-uppercase ">
+            <Link to="./inscription">
+              <button className="button is-primary is-large is-outlined is-uppercase">
                 faire un essai
               </button>
-            </AniLink>
+            </Link>
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import React from "react"
-import styles from "./lastArticles.module.css"
 import TitleStyled from "../../styledComponents/titleStyled"
 import { graphql, useStaticQuery } from "gatsby"
 import BlogListComponent from "../../blog/blogListComponent"
@@ -20,9 +19,6 @@ const getPostsAndResult = graphql`
           slug
           auteur
           id: contentful_id
-          content {
-            json
-          }
         }
       }
     }

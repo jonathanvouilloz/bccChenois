@@ -4,7 +4,7 @@ import links from "../../constants/links"
 import logo from "../../images/logo.png"
 import { AiOutlineMenu } from "react-icons/ai"
 import socialIcons from "../../constants/icons"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
+import {Link} from "gatsby"
 
 const Header = () => {
   const [isOpen, setNav] = useState(false)
@@ -16,9 +16,9 @@ const Header = () => {
     <nav className="has-background-dark">
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <AniLink fade to="./">
+          <Link fade to="./">
             <img className={styles.logoFix} src={logo} alt="bc-chenois-logo" />
-          </AniLink>
+          </Link>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <AiOutlineMenu className={styles.logoIcon} />
           </button>
@@ -37,14 +37,14 @@ const Header = () => {
             {links.map((item, index) => {
               return (
                 <li key={index}>
-                  <AniLink
+                  <Link
                     className={styles.underline}
                     activeStyle={{ color: "#35B0F6" }}
                     fade
                     to={item.path}
                   >
                     {item.name}
-                  </AniLink>
+                  </Link>
                 </li>
               )
             })}

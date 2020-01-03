@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"BC Chênois","short_name":"BCC","icon":"src/images/iconWebApp.png","start_url":"/","background_color":"#363636","theme_color":"#35B0F6","display":"standalone"},
+    },{
+      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[],"precachePages":["/interclub/","/news/*","/informations/*"]},
+    },{
       plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{

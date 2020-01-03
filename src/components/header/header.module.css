@@ -19,9 +19,9 @@
 
 .logoFix{
   margin-top: 5px;
-
   height:35px;
 }
+
 .nav-links {
   list-style-type: none;
   margin:auto;
@@ -44,24 +44,13 @@
   letter-spacing: var(--mainSpacing);
 }
 
-
 .nav-links a:hover {
   color: var(--primaryColor);
  }
 
-
-.essai {
-  padding-top: 23px;
-
-}
 .nav-social-links {
   display: none;
   margin-right: 1rem;
-}
-@media screen and (min-width: 576px) {
-  .navbar {
-    padding: 0 0rem;
-  }
 }
 
 @media screen and (min-width: 992px) {

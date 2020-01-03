@@ -42,10 +42,7 @@ const cours = () => {
           </table>
           
         </div>
-        {/* <button className="button is-primary is-medium is-outlined is-uppercase">
-                <span className={styles.essaiIcon}><GiShuttlecock /></span>
-               <span className={styles.essai}>Venir faire un essai </span>
-              </button> */}
+  
         
       </div>
     </div>

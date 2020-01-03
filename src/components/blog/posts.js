@@ -24,7 +24,8 @@ query {
 `
 
 const Posts = () => {
-    const {allPosts} = useStaticQuery(getAllPost);
+  
+  const {allPosts} = useStaticQuery(getAllPost);
 
   return (
     <div className="container has-text-centered">

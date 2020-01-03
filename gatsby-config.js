@@ -39,6 +39,24 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `BC Chênois`,
+        short_name: `BCC`,
+        icon: `src/images/iconWebApp.png`,
+        start_url: `/`,
+        background_color: `#363636`,
+        theme_color: `#35B0F6`,
+        display: `standalone`,
+      },
+    },
+    {
+        resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/interclub/`, `/news/*`, `/informations/*`],
+      }
+    },
+    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.bcchenois.ch',

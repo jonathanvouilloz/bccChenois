@@ -14,6 +14,9 @@
 
 .published {
     margin-top: 0.5rem;
+    text-align: left;
+    font-size: 0.85rem;
+    font-style: italic;
 }
 
 .iconBad{
@@ -25,10 +28,4 @@
 }
 .iconBad:hover{
     color:var(--primaryColor);
-}
-
-.published {
-    text-align: left;
-    font-size: 0.85rem;
-    font-style: italic;
 }
