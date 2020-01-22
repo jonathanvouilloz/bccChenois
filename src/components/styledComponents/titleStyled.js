@@ -18,19 +18,23 @@ const Title = styled.div`
     .subtitle{
         color:var(--primaryColor);
         font-size:2.5rem;
+        font-weight:normal;   
+
         border-color:var(--primaryColor);
-    border-style:solid;
-  border-width: 0px 0px 3px 0px;
-  transition: all .2s ease-in;
+        border-style:solid;
+        border-width: 0px 0px 3px 0px;
+        transition: all .2s ease-in;
     }
     .title{
         color:var(--mainBlack);
         font-size:2.5rem;
-        border-color:var(--mainBlack);
-   
+        font-weight:normal;   
+
     }
     h4{
         font-size:2.5rem;
+        font-weight:normal;   
+
     }
 
 

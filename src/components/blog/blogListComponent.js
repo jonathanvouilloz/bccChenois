@@ -6,7 +6,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 const BlogListComponent = ({ key, post, section }) => {
   return (
     <div className={section === "home" ? 'container is-fluid column is-10' : "container is-fluid column is-8"}>
-      <div className="">
+      <div>
         <div className="columns">
           <div className="column is-8">
             <h1 className=" is-size-4 is-uppercase has-text-left">

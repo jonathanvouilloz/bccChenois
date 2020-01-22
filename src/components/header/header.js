@@ -39,7 +39,7 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     className={styles.underline}
-                    activeStyle={{ color: "#35B0F6" }}
+                    activeStyle={{color:"#35B0F6"}}
                     fade
                     to={item.path}
                   >

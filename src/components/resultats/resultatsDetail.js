@@ -15,7 +15,6 @@ const ResultatsInfo = ({ interclub, id, section }) => {
                 <article className={styles.content}>{documentToReactComponents(interclub.resultats.json)}</article>
             </div>
         </div>
-        <p><span role="img">⬇️⬇️⬇️⬇️⬇️</span></p>
         <table className="table is-striped is-bordered">
           <tr className="has-background-white-ter">
             <th className="has-text-centered">Match</th>

@@ -46,7 +46,7 @@ const Interclub = () => {
 Une défaite 6-1 ou 7-0 rapporte 0 points 
 
 </li></ul><br />
-              <p>Vous retrouvez sur notre site nos équipes ainsi que les résumé des interclubs.<br /> Si vous souhaitez plus d'informations sur les interclub vous pouvez contacter <strong>Adrien Ourny (0xxxxxxxxx)</strong>, notre responsable interclub. <br /><br />Vous pouvez également visiter le site officiel des IC Suisse : <a target="_blank" rel="noopener" href="https://www.swiss-badminton.ch/">Swiss Badminton.</a></p>
+              <p>Vous retrouverez sur notre site nos équipes ainsi que les résumé des interclubs.<br /> Si vous souhaitez plus d'informations sur les interclub vous pouvez contacter <strong>Adrien Ourny (0xxxxxxxxx)</strong>, notre responsable interclub. <br /><br />Vous pouvez également visiter le site officiel des IC Suisse : <a target="_blank" rel="noopener" href="https://www.swiss-badminton.ch/">Swiss Badminton.</a></p>
               
              
             </article>

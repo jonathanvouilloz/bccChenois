@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"BC Chênois","short_name":"BCC","icon":"src/images/iconWebApp.png","start_url":"/","background_color":"#363636","theme_color":"#35B0F6","display":"standalone"},
     },{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[],"precachePages":["/interclub/","/news/*","/informations/*"]},
     },{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('D:/gatsby/bccChenois/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('D:/Projet Perso/bccChenois/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
