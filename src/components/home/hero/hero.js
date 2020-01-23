@@ -30,11 +30,9 @@ const Hero = () => {
               Retrouvez notre actualité et tous plein d'autres informations
               concernant notre club !
             </h3>
-            <br />
-            <Link to="./inscription">
-              <button className="button is-large is-danger is-outlined is-uppercase">
+            <br /><br />
+            <Link to="./inscription" className={styles.actionCall} state= {{saison:"2019"}}>
                 nous rejoindre
-              </button>
             </Link>
           </div>
         </div>

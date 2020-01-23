@@ -1,6 +1,6 @@
 .aboutInter {
     margin: auto;
-    width:80%;
+    width:90%;
 }
 .aboutInter h2 {
    text-decoration: underline;
@@ -8,4 +8,14 @@
 
 li {
    color:#696969;
+}
+
+.saison {
+    font-size: 1.5rem;
+}
+
+.saisonFinie {
+    font-size: 1.5rem;
+    color: red;
+    text-decoration:line-through ;
 }

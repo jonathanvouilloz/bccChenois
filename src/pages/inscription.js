@@ -6,8 +6,9 @@ import CoursAdule from "../components/informations/cours/coursAdulte"
 import Inscription from "../components/informations/formulaire/formulaireInscription"
 import SEO from "../components/seo/seo"
 
-const joinUs = () => {
+const JoinUs = () => {
   return (
+
     <Layout>
       <SEO
         titleD="Inscription"
@@ -23,4 +24,4 @@ const joinUs = () => {
   )
 }
 
-export default joinUs
+export default JoinUs

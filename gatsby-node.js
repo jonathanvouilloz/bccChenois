@@ -12,14 +12,28 @@ exports.createPages = async function({ actions, graphql }) {
               slug
             }
           }
+        } 
+        saison:allContentfulResultats {
+          edges {
+            node {
+              saison
+            }
+          }
         }
       }
     `)
-    data.posts.edges.forEach(({previous, node}) => {
+    data.posts.edges.forEach(({node}) => {
         createPage({
           path: `news/${node.slug}`,
           component: require.resolve(`./src/templates/blogTemplate.js`),
           context: { slug: node.slug},
         })
-    })
+    }),
+    data.saison.edges.forEach(({node}) => {
+      createPage({
+        path: `interclub/${node.saison}`,
+        component: require.resolve(`./src/templates/saisonTemplate.js`),
+        context: { saison: node.saison},
+      })
+  })
   }
