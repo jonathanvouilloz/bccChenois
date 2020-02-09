@@ -17,7 +17,7 @@ const Joueur = ({joueur, id}) => {
           </figure>   
           </div>
            <p class={styles.both}><span class={styles.nom}>{joueur.nom} </span><br /><span class={styles.prenom}>{joueur.prenom} </span>
-           <br /><br /><span class={styles.ligue}>Ligue 3</span>
+           <br /><br /><span class={styles.ligue}>4<sub>ème</sub> ligue</span>
 
            </p>
          </div>

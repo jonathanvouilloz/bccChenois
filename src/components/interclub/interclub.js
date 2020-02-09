@@ -66,10 +66,6 @@ const Interclub = () => {
       <span className={styles.saison}>Saison 2019 - 2020</span>
       </Link>
   </div>
-  <div className="column is-3"><Link to="interclub/2018">
-      <span className={styles.saisonFinie}>Saison 2018 - 2019</span>
-      </Link>
-  </div>
 </div>
 </div>
 
