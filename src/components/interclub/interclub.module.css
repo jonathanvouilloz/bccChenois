@@ -1,21 +1,35 @@
 .aboutInter {
-    margin: auto;
-    width:90%;
+  margin: auto;
+  width: 70%;
 }
 .aboutInter h2 {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 li {
-   color:#696969;
+  color: #696969;
 }
 
 .saison {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .saisonFinie {
-    font-size: 1.5rem;
-    color: red;
-    text-decoration:line-through ;
+  font-size: 1.5rem;
+  color: red;
+  text-decoration: line-through;
+}
+
+.calendar {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 740px) {
+  .calendar {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

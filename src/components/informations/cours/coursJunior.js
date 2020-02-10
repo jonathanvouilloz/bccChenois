@@ -1,20 +1,17 @@
 import React from "react"
 import TitleSection from "../../styledComponents/titleStyled"
-import styles from "./cours.module.css"
+import "./cours.css"
 import CoursInfo from "../../../constants/coursInfoJunior"
 
 const cours = () => {
-
-  
-
   return (
     <div className="container is-fluid has-text-centered">
       <TitleSection title="entraînement" subtitle="juniors" primary />
       <div className="is-fluid container">
         <div className="table-container has-text-centered">
-          <table className="table is-fullwidth  is-bordered">
+          <table className="table is-fullwidth  is-bordered tableA">
             <thead>
-            <tr className="has-background-white-ter">
+              <tr className="has-background-white-ter">
                 <th>Jour</th>
                 <th>Lieu</th>
                 <th>Début</th>
@@ -22,10 +19,10 @@ const cours = () => {
                 <th>Cat. d'âge</th>
                 <th>Niveau</th>
                 <th>Cours</th>
-            </tr></thead>
+              </tr>
+            </thead>
             <tbody>
               {CoursInfo.map((item, index) => {
-
                 return (
                   <tr>
                     <td className="has-background-white-ter">{item.jour}</td>
@@ -40,10 +37,7 @@ const cours = () => {
               })}
             </tbody>
           </table>
-          
         </div>
-  
-        
       </div>
     </div>
   )

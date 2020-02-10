@@ -1,19 +1,18 @@
 @media screen and (max-width: 842px) {
-  table {
+  .tableA {
     display: block;
   }
-  table > *, table tr, table td, table th {
+  .tableA > *,
+  .tableA tr,
+  .tableA td,
+  .tableA th {
     display: block;
   }
-  table thead {
+  .tableA thead {
     display: none;
   }
-  table tbody tr {
+  .tableA tbody tr {
     height: auto;
     padding: 37px 0;
   }
- 
 }
-
-
-

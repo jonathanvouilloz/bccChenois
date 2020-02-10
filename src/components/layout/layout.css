@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins");
 
 :root {
-  --primaryColor: #35B0F6;
+  --primaryColor: #35b0f6;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #363636;
@@ -15,11 +15,11 @@
 }
 
 main {
-  flex:1;
+  flex: 1;
 }
 
-.mainColor{
-  background-color: #fefefe
+.mainColor {
+  background-color: #fefefe;
 }
 
 .bodyPage {
@@ -47,7 +47,7 @@ h6 {
   letter-spacing: var(--mainSpacing);
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Verdana", sans-serif;
   letter-spacing: 1.1px;
   margin-bottom: 1.25rem;
 }
@@ -60,4 +60,3 @@ a {
   font-family: "Poppins", sans-serif;
   letter-spacing: var(--mainSpacingP);
 }
-

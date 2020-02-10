@@ -2,8 +2,7 @@ import React from "react"
 import TitleStyled from "../../styledComponents/titleStyled"
 import { graphql, useStaticQuery } from "gatsby"
 import BlogListComponent from "../../blog/blogListComponent"
-import Divider from "../../styledComponents/divider"
-import {Link} from 'gatsby'
+import { Link } from "gatsby"
 
 const getPostsAndResult = graphql`
   query {
@@ -45,13 +44,12 @@ const LastArticles = () => {
             </div>
             <div className="container is-centered has-text-centered">
               <Link to="./news">
-              <button className="button is-primary is-medium is-outlined is-uppercase">
-                Voir tous les articles
-              </button>
+                <button className="button is-primary is-medium is-outlined is-uppercase">
+                  Voir tous les articles
+                </button>
               </Link>
             </div>
-            <br />            <br />
-
+            <br /> <br />
           </main>
         </div>
       </div>

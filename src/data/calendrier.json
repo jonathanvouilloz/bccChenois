@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Interclub",
+    "date": "2020-02-07",
+    "time": "19:30",
+    "place": "Queue D'arve",
+    "team": "BC Genève 7"
+  },
+  {
+    "title": "Interclub",
+    "date": "2020-02-21",
+    "time": "20:15",
+    "place": "Hepia",
+    "team": "BC Rousseau 10"
+  },
+  {
+    "title": "Interclub",
+    "date": "2020-02-27",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "BC Genève 8"
+  },
+  {
+    "title": "Interclub",
+    "date": "2020-03-05",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "Omnisports Trélex"
+  },
+  {
+    "title": "Interclub",
+    "date": "2020-03-20",
+    "time": "19:30",
+    "place": "VERSOIX - Cycle dOrientation des Colombières",
+    "team": "Versoix 3"
+  }
+]
