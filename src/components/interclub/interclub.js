@@ -23,7 +23,7 @@ const Interclub = () => {
           <div className="container has-text-left">
             <div className={styles.aboutInter}>
               <LoadableCallendar />
-
+              <span className="testt">oupoa</span>
               <article class="container"></article>
             </div>
           </div>
