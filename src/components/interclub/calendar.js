@@ -22,8 +22,8 @@ const Calendar = () => {
         events={events}
         locale="fr"
         header={{
-          left: "today",
-          center: "title",
+          left: "title",
+          center: "",
           right: "prev,next",
         }}
         eventClick={eventClick}
