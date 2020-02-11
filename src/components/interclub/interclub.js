@@ -16,14 +16,12 @@ const LoadableCallendar = Loadable({
 const Interclub = () => {
   return (
     <div>
-      <div className={styles.calendar}></div>
       <div className="container has-text-centered">
         <TitleSection subtitle="interclub" title="Calendrier" />
         <div className="container">
           <div className="container has-text-left">
             <div className={styles.aboutInter}>
               <LoadableCallendar />
-              <span className="testt">oupoa</span>
               <article class="container"></article>
             </div>
           </div>

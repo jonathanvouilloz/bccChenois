@@ -22,11 +22,10 @@ const Calendar = () => {
         events={events}
         locale="fr"
         header={{
-          right: "prev,next",
-          left: "",
+          left: "today",
           center: "title",
+          right: "prev,next",
         }}
-        aspectRatio="1.5"
         eventClick={eventClick}
         weekends={false}
         defaultView="dayGridMonth"
