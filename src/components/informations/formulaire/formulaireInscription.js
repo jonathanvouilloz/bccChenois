@@ -71,7 +71,9 @@ const FormulaireInscription = () => {
               <div className="field is-horizontal">
                 <div className="field-body">
                   <div className="field">
-                    <label name="Nom" className="label">Nom</label>
+                    <label name="Nom" className="label">
+                      Nom
+                    </label>
                     <p className=" is-expanded">
                       <input
                         required
@@ -84,7 +86,9 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div className="field">
-                    <label name="Prénom" className="label">Prénom</label>
+                    <label name="Prénom" className="label">
+                      Prénom
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -97,7 +101,9 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div className="field">
-                    <label name="Date de naissance" className="label">Date de naissance</label>
+                    <label name="Date de naissance" className="label">
+                      Date de naissance
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -113,7 +119,9 @@ const FormulaireInscription = () => {
               <div className="field is-horizontal">
                 <div className="field-body">
                   <div className="field">
-                    <label name="Adresse 1" className="label">Adresse 1</label>
+                    <label name="Adresse 1" className="label">
+                      Adresse 1
+                    </label>
                     <p className="control">
                       <input
                         required
@@ -126,7 +134,9 @@ const FormulaireInscription = () => {
 
                     <div className="field">
                       {" "}
-                      <label name="Adresse 2" className="label">Adresse 2</label>
+                      <label name="Adresse 2" className="label">
+                        Adresse 2
+                      </label>
                       <p className="control is-expanded">
                         <input
                           className="input"
@@ -143,7 +153,9 @@ const FormulaireInscription = () => {
               <div className="field is-horizontal">
                 <div className="field-body">
                   <div className="field">
-                    <label name="Localité" className="label">Localité</label>
+                    <label name="Localité" className="label">
+                      Localité
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -154,14 +166,24 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div className="field">
-                    <label name="NPA" className="label">NPA</label>
+                    <label name="NPA" className="label">
+                      NPA
+                    </label>
                     <p className="control is-expanded">
-                      <input required className="input" type="text" name="NPA" />
+                      <input
+                        required
+                        className="input"
+                        type="text"
+                        name="NPA"
+                      />
                     </p>
                   </div>
                   <div className="field">
                     <label name="Nationalité" className="label">
-                      Nationalité<span><sup> 1</sup></span>
+                      Nationalité
+                      <span>
+                        <sup> 1</sup>
+                      </span>
                     </label>
                     <p className="control is-expanded">
                       <input
@@ -174,7 +196,9 @@ const FormulaireInscription = () => {
                   </div>
 
                   <div className="field">
-                    <label name="Pays" className="label">Pays</label>
+                    <label name="Pays" className="label">
+                      Pays
+                    </label>
                     <p className="control">
                       <p className="select">
                         <select name="Pays">
@@ -190,7 +214,9 @@ const FormulaireInscription = () => {
               <div className="field is-horizontal">
                 <div className="field-body">
                   <div className="field">
-                    <label name="Adresse mail" className="label">Adresse mail</label>
+                    <label name="Adresse mail" className="label">
+                      Adresse mail
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -201,7 +227,9 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div className="field">
-                    <label name="Téléphone fixe" className="label">N° Téléphone maison</label>
+                    <label name="Téléphone fixe" className="label">
+                      N° Téléphone maison
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -212,7 +240,9 @@ const FormulaireInscription = () => {
                     </p>
                   </div>
                   <div className="field">
-                    <label name="Téléphone portable" className="label">N° Téléphone portable</label>
+                    <label name="Téléphone portable" className="label">
+                      N° Téléphone portable
+                    </label>
                     <p className="control is-expanded">
                       <input
                         required
@@ -343,13 +373,13 @@ const FormulaireInscription = () => {
                   </div>
                 </div>
               </div>
-              <p className="has-text-danger">*Merci de remplir tous les champs</p>
-              <br />
+              <p className="has-text-danger">
+                *Merci de remplir tous les champs
+              </p>
               <div className="container has-text-centered">
                 <button className="button is-primary is-medium is-outlined is-uppercase">
                   Envoyer le formulaire
                 </button>
-                <p></p>
               </div>
               <br />
               <div>

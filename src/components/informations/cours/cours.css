@@ -15,4 +15,14 @@
     height: auto;
     padding: 37px 0;
   }
+
+  .containerCours {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.containerCours {
+  width: 80%;
+  margin: auto;
 }

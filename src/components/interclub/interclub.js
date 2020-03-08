@@ -27,17 +27,18 @@ const Interclub = () => {
           </div>
 
           <TitleSection title="Resultats" subtitle="BC Chenois" primary />
+          <br />
 
           <div className="container is-fluid">
             <div class="columns">
-              <div className="column is-3">
+              <div className="column is-4">
                 <Link to="interclub/2019">
                   <span className={styles.saison}>Saison 2019 - 2020</span>
                 </Link>
               </div>
             </div>
           </div>
-
+          <br />
           <Equipe />
         </div>
       </div>
