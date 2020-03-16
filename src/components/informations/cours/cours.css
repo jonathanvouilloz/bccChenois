@@ -1,3 +1,8 @@
+.containerCours {
+  width: 80%;
+  margin: auto;
+}
+
 @media screen and (max-width: 842px) {
   .tableA {
     display: block;
@@ -20,9 +25,4 @@
     width: 100%;
     margin: auto;
   }
-}
-
-.containerCours {
-  width: 80%;
-  margin: auto;
 }

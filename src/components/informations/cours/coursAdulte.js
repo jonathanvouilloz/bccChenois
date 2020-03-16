@@ -6,7 +6,7 @@ import CoursInfo from "../../../constants/coursInfoAdulte"
 const CoursAdulte = () => {
   return (
     <div className="containerCours">
-      <div className="container is-fluid has-text-centered">
+      <div className="container has-text-centered">
         <TitleSection title="entraînement" subtitle="adultes" />
         <div className="is-fluid container">
           <div className="table-container has-text-centered">
