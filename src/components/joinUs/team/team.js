@@ -14,23 +14,59 @@ const team = () => {
           <MemberBox
             role="Président"
             name="Jean-Philippe ETTER"
-            sentence="Je suis un enfant handicapé je vous souhaite la bienvenue en turquie yes."
+            contact="078.944.77.07"
+            sentence="-"
+            image="team/jp.jpg"
           />
           <MemberBox
             role="Vice-Président"
-            name="Jean-Philippe"
-            sentence="Je suis un enfant handicapé je vous souhaite la bienvenue en turquie yes."
+            name="Julien Ourny"
+            contact="078.944.77.07"
+            sentence="-"
+            image="team/adrien-ourny.png"
           />
           <MemberBox
-            role="Coach Responsable IC et JS"
+            role="Responsable Interclub"
             name="Adrien Ourny"
-            sentence="Je suis un enfant handicapé je vous souhaite la bienvenue en turquie yes."
+            contact="078.944.77.07"
+            sentence=""
+            image="team/adrien-ourny.png"
+          />
+           <MemberBox
+            role="Entraineur Junior I"
+            name="Guillaume Juillerat"
+            contact="078.944.77.07"
+            sentence=""
+            image="team/adrien-ourny.png"
           />
           <MemberBox
-            role="Trésorière"
-            name="Carlos le bg"
-            sentence="Salut les amis c'est Carlitos on prie pour vous et pour vos jambes tous les jours"
+            role="Entraineur Junior II"
+            name="Jérémy Apostolides"
+            contact="078.944.77.07"
+            sentence=""
+            image="team/adrien-ourny.png"
           />
+          <MemberBox
+            role="Entraineur Junior III"
+            name="Jonathan Vouilloz"
+            contact="078.944.77.07"
+            sentence=""
+            image="team/jonathan.png"
+          />
+          <MemberBox
+            role="Entraineur Junior IV"
+            name="Jonas Garazi"
+            contact="078.944.77.07"
+            sentence=""
+            image="team/adrien-ourny.png"
+          />
+          <MemberBox
+            role="Entraineur Adultes"
+            name="Arnaud Ritz"
+            contact="078.944.77.07"
+            sentence=""
+            image="team/arnaud.jpg"
+          />     
         </div>
       </div>
     </div>

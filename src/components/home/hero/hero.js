@@ -31,7 +31,7 @@ const Hero = () => {
               concernant notre club !
             </h3>
             <br /><br />
-            <Link to="./inscription" className={styles.actionCall} state= {{saison:"2019"}}>
+            <Link to="/inscription" className={styles.actionCall} state= {{saison:"2019"}}>
                 nous rejoindre
             </Link>
           </div>

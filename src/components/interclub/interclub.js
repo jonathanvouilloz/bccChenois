@@ -31,9 +31,14 @@ const Interclub = () => {
 
           <div className="container is-fluid">
             <div class="columns">
+            <div className="column is-4">
+                <Link to="interclub/2020">
+                  <span className={styles.saison}>Saison 2020 - 2021</span>
+                </Link>
+              </div>
               <div className="column is-4">
                 <Link to="interclub/2019">
-                  <span className={styles.saison}>Saison 2019 - 2020</span>
+                  <span className={styles.saisonFinie}>Saison 2019 - 2020</span>
                 </Link>
               </div>
             </div>

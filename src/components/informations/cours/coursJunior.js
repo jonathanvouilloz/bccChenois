@@ -40,7 +40,7 @@ const cours = () => {
             </table>
             <p className="has-text-left">
               Tu peux venir faire un essai gratuitement ! Préviens juste notre
-              coach principal à ce numéro : <strong>077.977.94.19</strong> ou
+              coach principal à ce numéro : <strong>076 616 17 75</strong> ou
               par mail à : <strong>bcchenois@gmail.com</strong>
             </p>
           </div>

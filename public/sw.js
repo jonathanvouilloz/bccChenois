@@ -27,86 +27,133 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ed3ee247b1f6b063017f.js"
+    "url": "webpack-runtime-e07e42843e84259e83fa.js"
   },
   {
-    "url": "styles.bb75e68c49df6186e4db.css"
+    "url": "styles.037663e02fd67b2dcd07.css"
   },
   {
-    "url": "styles-50b14a0ccc631914d951.js"
+    "url": "styles-89fd2ae28bdf06750a71.js"
   },
   {
-    "url": "commons-d26039e416c10d1516de.js"
+    "url": "framework-63dbeff5ed53f0ef4f33.js"
   },
   {
-    "url": "app-09e3fbdcc053a54b93a4.js"
-  },
-  {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-87ef582ba388a83f73c0.js"
+    "url": "app-989804c85e5611c1a58a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "7e3df54df30260e2b1b426bc3d9b45ef"
+    "revision": "14219e6a1c8ad2e1c1a2731cb72ea2ba"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-a583b50cb3c67156bcf7.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "c355c8040c47a63bfb3360e4b7cb6553"
+    "revision": "f6081b83111aea4128c98944b7fafccc"
   },
   {
-    "url": "component---src-pages-interclub-js-a62d873fbfaf8e536d4f.js"
+    "url": "page-data/app-data.json",
+    "revision": "5239105cf8c0ea1b3f9fe4693794ff5e"
+  },
+  {
+    "url": "polyfill-841d95448641946e48b1.js"
+  },
+  {
+    "url": "d7eeaac4-bc5104cffa6ac64c71bc.js"
+  },
+  {
+    "url": "9d6989ad1a0d93db98b091be97abf2d3d1b25c74-1ea0504f0cdf4406a5ee.js"
+  },
+  {
+    "url": "4ac34928cd6b39c45c8f227e4abdf64c4f96f7b2-cc4795a3202fdcd6ab71.js"
+  },
+  {
+    "url": "f6afb18047dfa266a319cd2baa0bd607b4e60f9d-3100a4b57a2d1b75cad0.js"
+  },
+  {
+    "url": "component---src-pages-interclub-js-0be880c1bfeafac2794d.js"
   },
   {
     "url": "page-data/interclub/page-data.json",
-    "revision": "846e6e74fcfb5cb343d7d61ca3785a46"
+    "revision": "c9845d56cef47443f30c41538ca3a812"
   },
   {
-    "url": "component---src-templates-blog-template-js-ce305039a5b5722d9e0a.js"
+    "url": "page-data/sq/d/3115887290.json",
+    "revision": "4ef754153cbe4bd22772a38792d08624"
   },
   {
-    "url": "page-data/news/essai-darticle/page-data.json",
-    "revision": "dcfaa27c5f798a25e12588b2428b652c"
+    "url": "page-data/sq/d/89934118.json",
+    "revision": "fdc6ace7c135daced7cd4728faaa7ed9"
+  },
+  {
+    "url": "a2a0c3a465097618821c4ee13eecb3f0e098c26f-96a9f851bf4669b6bb77.js"
+  },
+  {
+    "url": "component---src-templates-blog-template-js-02e2d2291f90b58f9fb7.js"
   },
   {
     "url": "page-data/news/formulaire-dinscription/page-data.json",
-    "revision": "43214b7816fa7570166bc1ab89245190"
+    "revision": "0f194d5c42471854f2ef6c15c35748be"
   },
   {
-    "url": "component---src-pages-news-js-82635b014511f235f681.js"
+    "url": "545f34e4-c4a456497cf5666ae245.js"
+  },
+  {
+    "url": "e0964c8fc51d0049a2b7cf74729e64d21815a450-c3e68a8a5238cd39724b.js"
+  },
+  {
+    "url": "component---src-pages-news-js-c59ca8003298daab653e.js"
   },
   {
     "url": "page-data/news/page-data.json",
-    "revision": "3a7e69b352af3689cbec1d0770933a91"
+    "revision": "eb5320d9e9cc2597de11ea8fc60cd3a7"
   },
   {
-    "url": "page-data/news/premier-article/page-data.json",
-    "revision": "baae5d810693665f77ee7e9e0cfcb1b1"
+    "url": "page-data/sq/d/1206708315.json",
+    "revision": "56b0110f6c9cdb59ac08acf466e71fe0"
+  },
+  {
+    "url": "page-data/news/informations-covid-19-entrainements-et-sessions-libres/page-data.json",
+    "revision": "b9ad29d8e2bcb570a1e4f4ee1168d88d"
   },
   {
     "url": "page-data/news/reprise-2019/page-data.json",
-    "revision": "9156280fa21033a43acafa2b0626b20b"
+    "revision": "30dc4624f382b192d2e43298ce8ee354"
   },
   {
-    "url": "component---src-pages-informations-js-3b3f5c17f7e34ccad871.js"
+    "url": "component---src-pages-informations-js-8873b33a5e4cfab1e6dd.js"
   },
   {
     "url": "page-data/informations/page-data.json",
-    "revision": "3635ce0ab041286251c0f5544743248d"
+    "revision": "0bd52849b574023fd2ef6a3aac80c1be"
+  },
+  {
+    "url": "page-data/sq/d/1628494583.json",
+    "revision": "6293c3c7126ac5094ab92386db9097b7"
+  },
+  {
+    "url": "page-data/sq/d/1713715591.json",
+    "revision": "3064bb5d599dc7f79b661b259051cd44"
+  },
+  {
+    "url": "page-data/sq/d/1821676971.json",
+    "revision": "12afdacd4968f73dd83138a224dd5299"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "fa914fb65ff01c13f6ae109e1d43d6ee"
+    "revision": "0cc86f2184d57a7c294e558be2ea6053"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`)
+importScripts(`idb-keyval-3.2.0-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -187,7 +234,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-09e3fbdcc053a54b93a4.js`))) {
+  if (!resources || !(await caches.match(`/app-989804c85e5611c1a58a.js`))) {
     return await fetch(event.request)
   }
 

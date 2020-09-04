@@ -46,7 +46,7 @@ const footer = () => {
             )
           })}<br />
               <span className={styles.contact}>Contact</span><br />
-                <span className={styles.infoContact}>022.345.34.23</span><br />
+                {/*<span className={styles.infoContact}>022.345.34.23</span><br />*/}
                 <span className={styles.infoContact}>bcchenois@gmail.com</span><br />
                 <span className={styles.infoContact}>Badminton Club Chênois
 Case postale 135

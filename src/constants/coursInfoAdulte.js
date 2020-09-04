@@ -13,7 +13,7 @@ export default [
         debut: "20:00",
         fin: "21:45",
         description: "Session avec entraîneur, entraînement pour inter-club, pas de jeux libres",
-        niveau: "Avancé",
+        niveau: "Intermédiaire",
       },{
         jour: "Jeudi",
         lieu: "Ecole du Bois-des-Arts",

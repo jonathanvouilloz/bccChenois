@@ -1,56 +1,52 @@
 import React from "react"
 import styles from "./team.module.css"
-import img from "../../../images/adrien-ourny.png"
-import { FaHandPointRight } from "react-icons/fa"
+import Image from 'gatsby-image'
+import { graphql, useStaticQuery } from "gatsby"
 
-const membreBox = ({ role, name, sentence }) => {
+
+
+const MembreBox = ({ role, name, sentence, contact, image }) => {
+
+  const data = useStaticQuery(graphql`
+  query  {
+    files: allFile(filter: {relativeDirectory: {eq: "team"}}) {
+      edges {
+        node {
+          relativePath
+          relativeDirectory
+          childImageSharp {
+            fixed(width:200, quality:70, height:200) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+  }
+  `)  
+  
+  let imgF;
+  const dat = data.files.edges;
+  const found = dat.find(node => node.node.relativePath === image);
+  if(found !== undefined){
+    imgF = found.node.childImageSharp.fixed;
+  }
+  
+
   return (
-    <div className="column is-half has-text-centered">
+    <div className="column is-6">
       <div className="container columns is-fluid">
-        <div className="container is-centered has-text-centered column is-two-fifths">
-          <figure className="container image is-128x128">
-            <img className={styles.avatar} src={img} alt={name} />
-          </figure>
-          <div className="has-text-left  is-hidden-desktop ">
-            <span className={styles.infoMembre}>022334342</span>
-            <br />
-            <span className={styles.infoMembre}>
-              dsunsdsdsadsdsdf@gmail.com
-            </span>
-          </div>
-          <div className="has-text-centered  is-hidden-mobile ">
-            <div className="dropdown is-hoverable">
-              <div className="dropdown-trigger">
-                <span>
-                  <FaHandPointRight /> Contact
-                </span>
-              </div>
-              <div className="dropdown-menu">
-                <div className="dropdown-content">
-                  <div className="dropdown-item has-text-left">
-                    <p>
-                      <strong>{name}</strong>
-                    </p>
-                    <span className={styles.infoMembre}>022334342</span>
-                    <br />
-                    <span className={styles.infoMembre}>
-                      dsunsdsdsadsdsdf@gmail.com
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="container has-text-left column is-two-third has-text-centered-mobile">
+              <Image fixed={imgF} />
         </div>
-        <br />
-
-        <div className="column has-text-left">
-          <h1 className="has-text-weight-bold is-uppercase has-text-left">
+        <div className="column has-text-left has-text-centered-mobile">
+          <h1 className="has-text-weight-bold is-uppercase">
             <span className={styles.underline}>{role}</span>
           </h1>
           <br />
+          <span>{name}</span><br />
+          <span><strong>Contact:</strong> {contact}</span>
           <p>{sentence}</p>
-          <p className={styles.signature}>- {name}</p>
           <br />
         </div>
       </div>
@@ -58,4 +54,4 @@ const membreBox = ({ role, name, sentence }) => {
   )
 }
 
-export default membreBox
+export default MembreBox
