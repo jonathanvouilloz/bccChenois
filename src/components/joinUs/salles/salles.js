@@ -32,7 +32,7 @@ const Salles = () => {
   `)
 
   return (
-    <div className="container is-fluid has-text-centered">
+    <div id="salles" className="container is-fluid has-text-centered">
       <TitleSection title="Nos salles" subtitle="à disposition" primary />
       <div className="columns">
         <Salle

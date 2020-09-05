@@ -2,6 +2,8 @@ import React from "react"
 import TitleSection from "../../styledComponents/titleStyled"
 import "./cours.css"
 import CoursInfo from "../../../constants/coursInfoAdulte"
+import {Link} from 'gatsby'
+
 
 const CoursAdulte = () => {
   return (
@@ -26,7 +28,7 @@ const CoursAdulte = () => {
                   return (
                     <tr>
                       <td className="has-background-white-ter">{item.jour}</td>
-                      <td>{item.lieu}</td>
+                      <td><Link to="/informations#salles">{item.lieu}</Link></td>
                       <td>{item.debut}</td>
                       <td>{item.fin}</td>
                       <td>{item.description}</td>

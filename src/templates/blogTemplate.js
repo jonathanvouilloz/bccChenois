@@ -60,7 +60,7 @@ const Blog = ({ data }) => {
           <br />
 
           <div className="has-text-left">
-            <Link className={styles.retour} to="./news">
+            <Link className={styles.retour} to="/news">
              Retour aux news
             </Link>
           </div>

@@ -58,7 +58,7 @@ Case postale 135
         </div>
 
         <span className={styles.infoContact}>
-        &copy; 2019 BCC - Réalisé par Jonathan Vouilloz
+        &copy; 2020 BCC - Réalisé par Jonathan Vouilloz
         </span>
      
       </footer>

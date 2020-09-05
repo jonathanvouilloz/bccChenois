@@ -43,7 +43,7 @@ const LastArticles = () => {
               })}
             </div>
             <div className="container is-centered has-text-centered">
-              <Link to="./news">
+              <Link to="/news">
                 <button className="button is-primary is-medium is-outlined is-uppercase">
                   Voir tous les articles
                 </button>
