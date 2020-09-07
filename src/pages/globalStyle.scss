@@ -11,6 +11,15 @@ $button-border-width: 0.2rem;
 $button-hover-background-color: white;
 $footer-padding: 0.8rem 1.5rem;
 $table-striped-row-even-background-color: lightgrey;
+$navbar-background-color: #363636;
+$navbar-item-color: #f7f7f7;
+$navbar-item-hover-color	:#35b0f6;
+$navbar-item-hover-background-color	: transparent;
+$navbar-dropdown-item-hover-color	:#f7f7f7;
+$navbar-dropdown-background-color	:#363636;
+$navbar-dropdown-item-active-background-color	:#35b0f6;
+$navbar-dropdown-item-hover-background-color:#35b0f6;
+$navbar-item-img-max-height	:2.3rem;
 @import "~bulma/bulma.sass";
 
 .button {

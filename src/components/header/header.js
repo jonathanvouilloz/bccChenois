@@ -7,51 +7,66 @@ import socialIcons from "../../constants/icons"
 import {Link} from "gatsby"
 
 const Header = () => {
-  const [isOpen, setNav] = useState(false)
+  const [isOpen, setNav] = useState("")
   const toggleNav = () => {
-    setNav(isOpen => !isOpen)
+    if(isOpen==="is-active"){
+      setNav(isOpen => "")
+      return
+    }
+    setNav(isOpen => "is-active")
   }
 
   return (
-    <nav className="has-background-dark">
-      <div className={styles.navCenter}>
-        <div className={styles.navHeader}>
-          <Link fade to="./">
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <Link className="navbar-item" fade to="/">
             <img className={styles.logoFix} src={logo} alt="bc-chenois-logo" />
           </Link>
-          <button type="button" className={styles.logoBtn} onClick={toggleNav}>
-            <AiOutlineMenu className={styles.logoIcon} />
-          </button>
+      
+          <a onClick={toggleNav} role="button" class={`navbar-burger burger ${isOpen}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-
-
-        <div>
-          {" "}
-          <ul
-            className={
-              isOpen
-                ? `${styles.navLinks} ${styles.showNav}`
-                : `${styles.navLinks}`
-            }
-          >
-            {links.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    className={styles.underline}
-                    activeStyle={{color:"#35B0F6"}}
-                    fade
-                    to={item.path}
-                  >
-                    {item.name}
-                  </Link>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-
-        <div className={styles.navSocialLinks}>
+      
+        <div id="navbarBasicExample" class={`navbar-menu ${isOpen}`}>
+          <div class="navbar-start" style={{flexGrow:1,justifyContent:'center',}}>
+          <Link className={`navbar-item ${styles.testA}`} activeStyle={{color:"#35B0F6"}} fade to="/">
+              Accueil
+            </Link>
+            <Link className={`navbar-item ${styles.testA}`} activeStyle={{color:"#35B0F6"}} fade to="/news">
+              Articles
+            </Link>
+            <Link className={`navbar-item ${styles.testA}`} activeStyle={{color:"#35B0F6"}} fade to="/interclub">
+              Interclub
+            </Link>
+            <Link className={`navbar-item ${styles.testA}`} activeStyle={{color:"#35B0F6"}} fade to="/inscription">
+              Nous rejoindre
+            </Link>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+         
+            <Link className={`navbar-item ${styles.testA}`} activeStyle={{color:"#35B0F6"}} fade to="/informations">
+              A propos
+            </Link>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  A venir
+                </a>
+                <a class="navbar-item">
+                  A venir
+                </a>
+                <a class="navbar-item">
+                  A venir
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+          <div className={styles.navSocialLinks}>
           {socialIcons.map((item, index) => {
             return (
               <a
@@ -64,9 +79,10 @@ const Header = () => {
               </a>
             )
           })}
+        </div>    
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   )
 }
 

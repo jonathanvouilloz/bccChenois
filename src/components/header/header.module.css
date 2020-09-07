@@ -1,85 +1,59 @@
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.25rem;
-}
-.logo-btn {
-  background: transparent;
-  border: none;
-  outline: none;
-}
-.logo-btn:hover {
-  cursor: pointer;
-}
-.logo-icon {
-  color: var(--mainWhite);
-  font-size: 1.5rem;
-}
+
 
 .logoFix{
-  margin-top: 5px;
-  height:35px;
+  margin-top: 0.2rem;
+  margin-left:10px;
+  height:45px;
+}
+.navSocialLinks{
+  color:magenta;
 }
 
-.nav-links {
-  list-style-type: none;
-  margin:auto;
-  transition: var(--mainTransition);
-  height: 0;
-  overflow: hidden;
-}
-
-.show-nav {
-  height: 220px;
-}
-.nav-links a {
-  display: block;
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--mainWhite);
-  transition: var(--mainTransition);
+.testA {
+  letter-spacing: 4px;
   font-size: 1rem;
-  letter-spacing: var(--mainSpacing);
+  padding: .5rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
 }
 
-.nav-links a:hover {
-  color: var(--primaryColor);
- }
+@media only screen and (max-width: 600px) {
+  .testA {
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
 
-.nav-social-links {
-  display: none;
-  margin-right: 1rem;
+  .navSocialLinks
+  {
+    margin-left:10px;;
+  }
 }
 
-@media screen and (min-width: 992px) {
-  .logo-btn {
-    display: none;
-  }
-  .nav-center {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-links {
-    height: auto;
-    display: flex;
-  }
-  .nav-social-links {
-    display: flex;
-    line-height: 0;
-  }
-  .nav-social-links a {
+
+@media screen and (min-width: 992px){
+.nav-social-links a{
     color: var(--mainWhite);
-    margin: 0 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     transition: var(--mainTransition);
+}
+.nav-social-links a:hover{
+  color: var(--primaryColor);
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-social-links{
+    text-align: center;
   }
-  .nav-social-links a:hover {
+  .nav-social-links a{
+    font-size: 1.6rem;
+  }
+  .nav-social-links a:hover{
     color: var(--primaryColor);
-    transform: translateY(-5px);
   }
 }
 
