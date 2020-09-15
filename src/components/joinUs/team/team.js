@@ -37,7 +37,7 @@ const team = () => {
             name="Guillaume Juillerat"
             contact="+41 79 719 39 81"
             sentence=""
-            image="team/adrien-ourny.png"
+            image="team/guillaume.jpg"
           />
           <MemberBox
             role="Entraineur Junior II"
