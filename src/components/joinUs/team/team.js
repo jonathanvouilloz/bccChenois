@@ -44,7 +44,7 @@ const team = () => {
             name="Jérémy Apostolides"
             contact="+41 78 607 29 55"
             sentence=""
-            image="team/adrien-ourny.png"
+            image="team/jeremy.png"
           />
           <MemberBox
             role="Entraineur Junior III"
@@ -58,7 +58,7 @@ const team = () => {
             name="Jonas Garazi"
             contact="+41 76 544 22 32"
             sentence=""
-            image="team/adrien-ourny.png"
+            image="team/jonas.png"
           />
           <MemberBox
             role="Entraineur Adultes"
