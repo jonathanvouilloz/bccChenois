@@ -58,7 +58,7 @@ const team = () => {
             name="Jonas Garazi"
             contact="+41 76 544 22 32"
             sentence=""
-            image="team/jonas.png"
+            image="team/jonas.jpg"
           />
           <MemberBox
             role="Entraineur Adultes"

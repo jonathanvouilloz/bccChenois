@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-e07e42843e84259e83fa.js"
+    "url": "webpack-runtime-2b60e4c632daef46bd87.js"
   },
   {
-    "url": "styles.037663e02fd67b2dcd07.css"
+    "url": "styles.68b6f721547dd27a76fb.css"
   },
   {
     "url": "styles-89fd2ae28bdf06750a71.js"
@@ -43,7 +43,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "14219e6a1c8ad2e1c1a2731cb72ea2ba"
+    "revision": "7ed66d641426dc631a75e5db10b7246b"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-a583b50cb3c67156bcf7.js"
@@ -54,16 +54,16 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "5239105cf8c0ea1b3f9fe4693794ff5e"
+    "revision": "86a6521266beb5b33e09e21d1a88bdfb"
   },
   {
     "url": "polyfill-841d95448641946e48b1.js"
   },
   {
-    "url": "d7eeaac4-bc5104cffa6ac64c71bc.js"
+    "url": "d7eeaac4-be0b0a8d9231675a464f.js"
   },
   {
-    "url": "9d6989ad1a0d93db98b091be97abf2d3d1b25c74-1ea0504f0cdf4406a5ee.js"
+    "url": "9d6989ad1a0d93db98b091be97abf2d3d1b25c74-2bd35d443cff14f0ec03.js"
   },
   {
     "url": "4ac34928cd6b39c45c8f227e4abdf64c4f96f7b2-cc4795a3202fdcd6ab71.js"
@@ -84,13 +84,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/89934118.json",
-    "revision": "fdc6ace7c135daced7cd4728faaa7ed9"
+    "revision": "ed14df1145ae5fcd9082e9d1ba3b469b"
   },
   {
     "url": "a2a0c3a465097618821c4ee13eecb3f0e098c26f-96a9f851bf4669b6bb77.js"
   },
   {
-    "url": "component---src-templates-blog-template-js-02e2d2291f90b58f9fb7.js"
+    "url": "component---src-templates-blog-template-js-cdfd3a27154db86703a4.js"
   },
   {
     "url": "page-data/news/formulaire-dinscription/page-data.json",
@@ -111,7 +111,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/1206708315.json",
-    "revision": "56b0110f6c9cdb59ac08acf466e71fe0"
+    "revision": "54167ade00e938c7d53435db6fd2d67e"
   },
   {
     "url": "page-data/news/informations-covid-19-entrainements-et-sessions-libres/page-data.json",
@@ -122,7 +122,11 @@ self.__precacheManifest = [
     "revision": "30dc4624f382b192d2e43298ce8ee354"
   },
   {
-    "url": "component---src-pages-informations-js-8873b33a5e4cfab1e6dd.js"
+    "url": "page-data/news/reprise-2020/page-data.json",
+    "revision": "100dcdc951c38cbffd913d636c7001ac"
+  },
+  {
+    "url": "component---src-pages-informations-js-3b259203609cdb4bf509.js"
   },
   {
     "url": "page-data/informations/page-data.json",
@@ -138,7 +142,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/sq/d/1821676971.json",
-    "revision": "12afdacd4968f73dd83138a224dd5299"
+    "revision": "44df0bdb2a8fffd28984089fdeea57b1"
   },
   {
     "url": "manifest.webmanifest",
