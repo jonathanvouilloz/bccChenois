@@ -55,5 +55,10 @@
   .nav-social-links a:hover{
     color: var(--primaryColor);
   }
+  .logoFix{
+    margin-top: 0.1rem;
+    margin-left:10px;
+    height:25px;
+  }
 }
 
