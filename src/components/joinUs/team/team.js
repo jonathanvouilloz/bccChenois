@@ -44,7 +44,7 @@ const team = () => {
             name="Jérémy Apostolides"
             contact="+41 78 607 29 55"
             sentence=""
-            image="team/jeremy.png"
+            image="team/jeremy.jpeg"
           />
           <MemberBox
             role="Entraineur Junior III"
