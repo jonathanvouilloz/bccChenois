@@ -1,6 +1,7 @@
 .aboutInter {
   margin: auto;
-  width: 70%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .aboutInter h2 {
   text-decoration: underline;

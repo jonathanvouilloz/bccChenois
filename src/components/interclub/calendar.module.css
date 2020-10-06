@@ -1,0 +1,12 @@
+.finished {
+    background: linear-gradient(180deg, 
+    rgba(255, 0, 0, 0) calc(50% - 1px), 
+    rgb(255, 0, 0) calc(50%), 
+    rgba(255, 0, 0, 0) calc(50% + 1px)
+);
+
+}
+
+td {
+    white-space: nowrap;
+}

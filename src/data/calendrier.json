@@ -1,37 +1,114 @@
 [
   {
     "title": "Interclub",
-    "date": "2020-02-07",
-    "time": "19:30",
-    "place": "Queue D'arve",
-    "team": "BC Genève 7"
+    "date": "24.09.2020",
+    "time": "20:00",
+    "place": "Marcelly",
+    "team": "Rolex Badminton 2",
+    "finish":true
   },
   {
     "title": "Interclub",
-    "date": "2020-02-21",
+    "date": "28.09.2020",
     "time": "20:15",
-    "place": "Hepia",
-    "team": "BC Rousseau 10"
+    "place": "Mandement",
+    "team": "BC Mandement 4",
+    "finish":true
   },
   {
     "title": "Interclub",
-    "date": "2020-02-27",
+    "date": "16.10.2020",
+    "time": "20:00",
+    "place": "Queue d'arve",
+    "team": "BC Genève 8",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "05.11.2020",
     "time": "20:15",
     "place": "Marcelly",
-    "team": "BC Genève 8"
+    "team": "BC Rousseau 10",
+    "finish":false
   },
   {
     "title": "Interclub",
-    "date": "2020-03-05",
+    "date": "10.11.2020",
+    "time": "20:00",
+    "place": "Omnisports Trélex",
+    "team": "Omnisports Trélex",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "12.11.2020",
     "time": "20:15",
     "place": "Marcelly",
-    "team": "Omnisports Trélex"
+    "team": "Versoix BC 3",
+    "finish":false
   },
   {
     "title": "Interclub",
-    "date": "2020-03-20",
-    "time": "19:30",
+    "date": "03.12.2020",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "BC Genève 7",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "21.01.2021",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "BC Mandement 4",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "25.01.2021",
+    "time": "20:15",
+    "place": "CHENE-BOURG - Collège de Candolle",
+    "team": "Rolex Badminton 2",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "24.02.2021",
+    "time": "19:15",
+    "place": "Queue d'arve",
+    "team": "BC Genève 7",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "25.02.2021",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "BC Genève 8",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "11.03.2021",
+    "time": "20:15",
+    "place": "Marcelly",
+    "team": "Omnisports Trélex",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "19.03.2021",
+    "time": "19:45",
     "place": "VERSOIX - Cycle dOrientation des Colombières",
-    "team": "Versoix 3"
+    "team": "BC Versoix 3",
+    "finish":false
+  },
+  {
+    "title": "Interclub",
+    "date": "26.03.2021",
+    "time": "20:15",
+    "place": "HEPIA",
+    "team": "BC Rousseau 10",
+    "finish":false
   }
 ]

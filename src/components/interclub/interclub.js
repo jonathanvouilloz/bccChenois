@@ -3,15 +3,7 @@ import TitleSection from "../styledComponents/titleStyled"
 import Equipe from "./equipe"
 import { Link } from "gatsby"
 import styles from "./interclub.module.css"
-import Loadable from "react-loadable"
-import "./calendar.scss"
-
-const LoadableCallendar = Loadable({
-  loader: () => import("./calendar"),
-  loading() {
-    return <div>Loading...</div>
-  },
-})
+import Calendrier from "./calendar"
 
 const Interclub = () => {
   return (
@@ -21,8 +13,7 @@ const Interclub = () => {
         <div className="container">
           <div className="container has-text-left">
             <div className={styles.aboutInter}>
-              <LoadableCallendar />
-              <article class="container"></article>
+              <Calendrier />
             </div>
           </div>
 
