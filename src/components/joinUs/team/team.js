@@ -65,7 +65,7 @@ const team = () => {
             name="Arnaud Ritz"
             contact="+41 78 883 25 83"
             sentence=""
-            image="team/arnaud.jpg"
+            image="team/arnaud.jpeg"
           />     
         </div>
       </div>
