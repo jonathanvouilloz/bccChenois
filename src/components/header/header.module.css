@@ -18,6 +18,19 @@
     margin-right: 20px;
 }
 
+.testB {
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  padding: .5rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.testB:hover {
+  color:var(--mainWhite);
+}
+
 @media only screen and (max-width: 600px) {
   .testA {
     letter-spacing: 2px;
@@ -35,12 +48,12 @@
 
 
 @media screen and (min-width: 992px){
-.nav-social-links a{
+.nav-social-links Link{
     color: var(--mainWhite);
     font-size: 1.6rem;
     transition: var(--mainTransition);
 }
-.nav-social-links a:hover{
+.nav-social-links Link:hover{
   color: var(--primaryColor);
 }
 }

@@ -52,15 +52,12 @@ const Header = () => {
             </Link>
       
               <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  A venir
-                </a>
-                <a class="navbar-item">
-                  A venir
-                </a>
-                <a class="navbar-item">
-                  A venir
-                </a>
+                <Link className={`navbar-item ${styles.testB}`} activeStyle={{textDecoration:"underline"}} fade to="/horaires">
+                  Horaires
+                </Link>
+                <Link className={`navbar-item ${styles.testB}`} activeStyle={{textDecoration:"underline"}} fade to="/tarifs">
+                  Tarifs
+                </Link>
               </div>
             </div>
           </div>

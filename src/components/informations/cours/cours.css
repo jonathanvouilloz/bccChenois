@@ -1,6 +1,7 @@
 .containerCours {
   width: 80%;
   margin: auto;
+  margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 842px) {

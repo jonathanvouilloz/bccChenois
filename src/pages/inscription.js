@@ -14,11 +14,7 @@ const JoinUs = () => {
         titleD="Inscription"
         descriptionD="Vous souhaitez vous inscrire, inscrire votre enfant ou venir faire une séance d'essai ?
          Vous êtes au bon endroit. Retrouvez ici toute nos séance d'entraînements et cours pour les juniors ainsi que pour les adultes et seniors."
-      />
-      <CoursJunior />
-      <Divider />
-      <CoursAdule />
-      <Divider />
+      />   
       <Inscription />
     </Layout>
   )

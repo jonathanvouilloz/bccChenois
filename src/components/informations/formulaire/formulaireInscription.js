@@ -279,19 +279,7 @@ const FormulaireInscription = () => {
                         value="Cotisation Club / 170.-"
                         className={styles.radio}
                       />
-                      Cotisation enfants
-                    </label>
-                    <span>170.- CHF</span>
-                  </div>
-                  <div className="column">
-                    <label name="CotisationClub" className="label">
-                      <input
-                        type="checkbox"
-                        name="CotisationClub"
-                        value="Cotisation Club / 170.-"
-                        className={styles.radio}
-                      />
-                      Cotisations adultes
+                      Cotisation enfants / adultes
                     </label>
                     <span>170.- CHF</span>
                   </div>
@@ -326,14 +314,27 @@ const FormulaireInscription = () => {
                     <span>40.- CHF</span>
                   </div>
                   <div className="column">
-                    <label name="cotisationSwissBad" className="label">
+                    <label name="AdulteLicence" className="label">
                       <input
                         type="radio"
+                        name="cotisationSwissBad"
+                        value="Licence Adulte / 40.-"
+                        className={styles.radio}
+                      />
+                      Licence adulte (né avant 2002)
+                      <sup> 4 </sup>
+                    </label>
+                    <span>120.- CHF</span>
+                  </div>
+                  <div className="column">
+                    <label name="cotisationSwissBad" className="label">
+                      <input
+                        type="checkbox"
                         name="cotisationSwissBad"
                         value="Cotisation Swiss Badminton / 30.-"
                         className={styles.radio}
                       />
-                      Cotisation membre adulte actif<sup> 4 </sup>
+                      Cotisation membre adulte actif<sup> 5 </sup>
                     </label>
                     <span>30.- CHF</span>
                   </div>
@@ -383,23 +384,25 @@ const FormulaireInscription = () => {
               </div>
               <br />
               <div>
-                <span>
-                  <sup>1 </sup>: Pour usage statistique de Swiss Badminton
-                  uniquement.
+              <span>
+                  <sup>1 </sup>: Montant unique perçu lors de la première année d'adhésion.
                 </span>
                 <br />
                 <span>
-                  <sup>2 </sup>: Montant unique la première année.
+                  <sup>2 </sup>: Montant perçu chaque année d'adhésion.
                 </span>
                 <br />
                 <span>
-                  <sup>3 </sup>: Montant obligatoire reversé à la fédération
+                  <sup>3 </sup>: Montant obligatoire perçu chaque année d'ahésion et reversé à la fédération
                   Swiss Badminton.
                 </span>
                 <br />
                 <span>
-                  <sup>4 </sup>: Facultatif, cotisation de soutien reversée à la
-                  fédération
+                  <sup>4 </sup>: Montant facultatif perçu aux adultes souhaitant faire de la compétition.
+                </span>
+                <br />
+                <span>
+                  <sup>5 </sup>: Montant facultatif reversé à la Fédération Swiss Badminton.
                 </span>
                 <br />
                 <br />
