@@ -264,7 +264,7 @@ const FormulaireInscription = () => {
                       <input
                         type="checkbox"
                         name="CotisationClub"
-                        value="Cotisation Club / 50.-"
+                        value="admission Club / 50.-"
                         className={styles.radio}
                       />
                       Admission au club<sup> 2 </sup>
@@ -276,7 +276,7 @@ const FormulaireInscription = () => {
                       <input
                         type="checkbox"
                         name="CotisationClub"
-                        value="Cotisation Club / 170.-"
+                        value="Cotisation / 170.-"
                         className={styles.radio}
                       />
                       Cotisation enfants / adultes
@@ -293,10 +293,10 @@ const FormulaireInscription = () => {
                       <input
                         type="radio"
                         name="cotisationSwissBad"
-                        value="Cotisation Swiss Badminton / 20.-"
+                        value="Licence Junior 2006 ou plus tard / 20.-"
                         className={styles.radio}
                       />
-                      Juniors nés en 2004 et après (U12-U15)<sup> 3 </sup>
+                      Licence Junior nés en 2006 ou plus tard<sup> 3 </sup>
                     </label>
                     <span>20.- CHF</span>
                   </div>
@@ -305,10 +305,10 @@ const FormulaireInscription = () => {
                       <input
                         type="radio"
                         name="cotisationSwissBad"
-                        value="Cotisation Swiss Badminton / 40.-"
+                        value="Licence Junior 2002 - 2005 / 40.-"
                         className={styles.radio}
                       />
-                      Juniors nés entre 2000 jusqu'en 2003 (U16-U19)
+                      Licence Junior nés entre 2002 et 2005
                       <sup> 3 </sup>
                     </label>
                     <span>40.- CHF</span>
@@ -318,7 +318,7 @@ const FormulaireInscription = () => {
                       <input
                         type="radio"
                         name="cotisationSwissBad"
-                        value="Licence Adulte / 40.-"
+                        value="Licence Adulte / 120.-"
                         className={styles.radio}
                       />
                       Licence adulte (né avant 2002)
@@ -331,7 +331,7 @@ const FormulaireInscription = () => {
                       <input
                         type="checkbox"
                         name="cotisationSwissBad"
-                        value="Cotisation Swiss Badminton / 30.-"
+                        value="Cotisation membre actif / 30.-"
                         className={styles.radio}
                       />
                       Cotisation membre adulte actif<sup> 5 </sup>
