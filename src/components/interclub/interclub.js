@@ -17,7 +17,7 @@ const Interclub = () => {
             </div>
           </div>
 
-          <TitleSection title="Resultats" subtitle="BC Chenois" primary />
+          <TitleSection title="Résumé" subtitle="des matchs" primary />
           <br />
 
           <div className="container is-fluid">
