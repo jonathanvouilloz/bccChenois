@@ -35,8 +35,6 @@ const getResultat = graphql`
 const Resultats = () => {
   
   const { data } = useStaticQuery(getResultat)
-  console.log(data);
-
   return (
     <div className="container">
       {data.edges.map(({ node }) => {
